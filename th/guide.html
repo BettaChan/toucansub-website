@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fd">
+  <title>ติดตั้ง ตั้งค่า Whisper และส่งออก SRT · Toucan Subtitle</title>
+  <meta name="description" content="วิธีตรวจสอบไฟล์ติดตั้ง ตั้งค่าโมเดล และสร้างคำบรรยาย SRT ชุดแรก">
+  <link rel="canonical" href="https://toucansub.app/th/guide.html">
+  <link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/guide.html">
+  <link rel="alternate" hreflang="en" href="https://toucansub.app/en/guide.html">
+  <link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/guide.html">
+  <link rel="alternate" hreflang="de" href="https://toucansub.app/de/guide.html">
+  <link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/guide.html">
+  <link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/guide.html">
+  <link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/guide.html">
+  <link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/guide.html">
+  <link rel="alternate" hreflang="th" href="https://toucansub.app/th/guide.html">
+  <link rel="alternate" hreflang="x-default" href="https://toucansub.app/guide.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Toucan Subtitle">
+  <meta property="og:title" content="ติดตั้ง ตั้งค่า Whisper และส่งออก SRT · Toucan Subtitle">
+  <meta property="og:description" content="วิธีตรวจสอบไฟล์ติดตั้ง ตั้งค่าโมเดล และสร้างคำบรรยาย SRT ชุดแรก">
+  <meta property="og:url" content="https://toucansub.app/th/guide.html">
+  <meta property="og:image" content="https://toucansub.app/assets/toucan.png">
+  <meta property="og:image:alt" content="Toucan Subtitle">
+  <meta property="og:image:width" content="256">
+  <meta property="og:image:height" content="256">
+  <meta property="og:locale" content="th_TH">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_TW">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta property="og:locale:alternate" content="ko_KR">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://toucansub.app/th/guide.html#page","url":"https://toucansub.app/th/guide.html","name":"ติดตั้ง ตั้งค่า Whisper และส่งออก SRT · Toucan Subtitle","description":"วิธีตรวจสอบไฟล์ติดตั้ง ตั้งค่าโมเดล และสร้างคำบรรยาย SRT ชุดแรก","inLanguage":"th","isPartOf":{"@id":"https://toucansub.app/#website"},"breadcrumb":{"@id":"https://toucansub.app/th/guide.html#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://toucansub.app/th/guide.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"หน้าแรก","item":"https://toucansub.app/th/"},{"@type":"ListItem","position":2,"name":"ติดตั้ง ตั้งค่า Whisper และส่งออก SRT · Toucan Subtitle","item":"https://toucansub.app/th/guide.html"}]}]}</script>
+  <link rel="icon" type="image/png" href="../assets/toucan.png">
+  <link rel="stylesheet" href="../assets/site.css">
+  <script src="../assets/site.js" defer></script>
+</head>
+<body class="page-guide">
+  <a class="skip" href="#main">ข้ามไปยังเนื้อหาหลัก</a>
+  <header class="header">
+    <div class="frame header-row">
+      <a class="brand" href="index.html" aria-label="หน้าแรก Toucan Subtitle">
+        <img src="../assets/toucan.png" width="36" height="36" alt="">
+        <span><strong>Toucan Subtitle</strong><small>ซับนกปากโต</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">เมนู <span aria-hidden="true">☰</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="เมนูหลัก"><a href="features.html">ฟีเจอร์</a><a href="downloads.html" class="nav-download">ดาวน์โหลด</a><a href="guide.html" aria-current="page">คู่มือ</a><a href="changelog.html">ประวัติเวอร์ชัน</a></nav>
+      <div class="header-actions">
+        <details class="language-menu">
+          <summary aria-label="ไทย · ภาษา">ไทย <span aria-hidden="true">⌄</span></summary>
+          <nav aria-label="ภาษา"><a href="../guide.html" lang="zh-CN" hreflang="zh-CN">简体中文</a><a href="../en/guide.html" lang="en" hreflang="en">English</a><a href="../zh-TW/guide.html" lang="zh-TW" hreflang="zh-TW">繁體中文</a><a href="../de/guide.html" lang="de" hreflang="de">Deutsch</a><a href="../ja/guide.html" lang="ja" hreflang="ja">日本語</a><a href="../ko/guide.html" lang="ko" hreflang="ko">한국어</a><a href="../fr/guide.html" lang="fr" hreflang="fr">Français</a><a href="../ru/guide.html" lang="ru" hreflang="ru">Русский</a><a href="guide.html" lang="th" hreflang="th" aria-current="page">ไทย</a></nav>
+        </details>
+        <a class="button button-nav" href="downloads.html">ดาวน์โหลด <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-head"><div class="frame">
+  <p class="eyebrow"><span></span> คู่มือ</p><h1>สร้างคำบรรยาย <em>ชุดแรกของคุณ</em></h1>
+  <p>ติดตั้งแอป เตรียมโมเดล Whisper แล้วนำเข้าไฟล์เสียงหรือวิดีโอ</p>
+</div></section>
+<div class="frame section docs">
+  <nav class="doc-nav" aria-label="สารบัญ"><a href="#install">ติดตั้งแอป</a><a href="#verify">ตรวจสอบไฟล์</a><a href="#models">เตรียมโมเดล</a><a href="#first-srt">สร้างคำบรรยาย</a><a href="#privacy">ข้อมูลและความเป็นส่วนตัว</a><a href="#faq">คำถามที่พบบ่อย</a></nav>
+  <div class="doc-body">
+    <section id="install"><h2>ติดตั้งแอป</h2><p>ดูแพลตฟอร์มที่รองรับและสถานะเวอร์ชันในหน้าดาวน์โหลด <a href="downloads.html">ดาวน์โหลด ↗</a></p>
+      <div class="guide-panel" id="macos"><h3>macOS Apple Silicon</h3><p>เปิด DMG ที่ได้รับแล้วลากแอปไปยัง Applications หรือแตกไฟล์ ZIP และย้ายแอปไปยังโฟลเดอร์เดียวกัน</p></div>
+      <div class="guide-panel" id="windows"><h3>Windows x64</h3><p>เปิดตัวติดตั้ง EXE หรือแตก ZIP ทั้งหมดแล้วเปิดแอป หาก Windows แจ้งว่าขาด Visual C++ x64 ให้ติดตั้งหรือซ่อมแซมรันไทม์</p><a href="https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist">ดาวน์โหลดรันไทม์จาก Microsoft ↗</a></div>
+    </section>
+    <section id="verify"><h2>ตรวจสอบไฟล์</h2><p>เปลี่ยนชื่อไฟล์ตัวอย่างเป็นชื่อจริง แล้วเทียบผลลัพธ์กับรายการ SHA-256 จาก GitHub Release เดียวกัน</p>
+      <div class="guide-panel"><h3>macOS</h3><pre><code>shasum -a 256 "installer.dmg"</code></pre><h3>Windows PowerShell</h3><pre><code>Get-FileHash "installer.exe" -Algorithm SHA256</code></pre></div>
+    </section>
+    <section id="models"><h2>เตรียมโมเดล</h2><ol class="guide-list"><li>เปิดการตั้งค่าการถอดเสียง แล้วเลือกเอนจินและขนาดโมเดล</li><li>ดาวน์โหลดโมเดลและรอให้เสร็จ</li><li>เปิดการตรวจสอบระบบเพื่อดูว่าสภาพแวดล้อม เอนจิน และน้ำหนักพร้อมใช้งาน</li></ol>
+      <div class="guide-panel" id="llm"><h3>ตั้งค่าโมเดลสำหรับปรับข้อความหรือแปล</h3><p>กรอกชื่อโมเดลสำหรับ Ollama บนเครื่อง หรือกรอก Base URL, API Key และชื่อโมเดลสำหรับบริการที่เข้ากันได้กับ OpenAI หากถอดเสียงอย่างเดียว ใช้เพียง Whisper</p></div>
+    </section>
+    <section id="first-srt"><h2>สร้างคำบรรยาย</h2><ol class="guide-list"><li>กลับไปยังพื้นที่ทำงานและเพิ่มไฟล์หรือโฟลเดอร์</li><li>เลือกถอดเสียง ปรับข้อความ หรือแปล หากแปลให้เลือกภาษาปลายทาง</li><li>เริ่มประมวลผลและติดตามความคืบหน้า หากระบบถาม ให้ยืนยันภาษาจริงของสื่อ</li><li>ตรวจสอบตัวอย่าง แล้วเปิดไฟล์ SRT ในโฟลเดอร์สื่อ</li></ol></section>
+    <section id="privacy"><h2>ข้อมูลและความเป็นส่วนตัว</h2><div class="guide-panel"><h3>ถอดเสียงบนเครื่อง</h3><p>แอปอ่านสื่อ แยกเสียง และใช้ Whisper บนคอมพิวเตอร์ การดาวน์โหลดน้ำหนักครั้งแรกต้องใช้อินเทอร์เน็ต</p><h3>ปรับข้อความและแปลที่ไหน</h3><p>ข้อความคำบรรยายถูกส่งไปยังปลายทางที่ตั้งค่าไว้ Ollama บนเครื่องจะประมวลผลในคอมพิวเตอร์ ส่วนบริการระยะไกลใช้กฎการประมวลผลและการเก็บข้อมูลของผู้ให้บริการ</p><h3>ตัวอย่างบนเว็บไซต์</h3><p>หน้าแรกใช้ตัวอย่างสำเร็จรูปและไม่มีช่องอัปโหลดสื่อ</p></div></section>
+    <section id="faq"><h2>คำถามที่พบบ่อย</h2><details><summary>ต้องใช้ Ollama เพื่อสร้างคำบรรยายต้นฉบับหรือไม่</summary><p>เลือกถอดเสียงอย่างเดียวและดาวน์โหลดน้ำหนัก Whisper ที่ต้องการ</p></details>
+      <details><summary>ทำอย่างไรหาก Windows แจ้งว่าขาดรันไทม์</summary><p>ตรวจสอบ Visual C++ x64 และใช้ support/diagnose-engine.cmd ในโฟลเดอร์แอปเพื่อตรวจสอบส่วนประกอบที่ต้องใช้</p></details>
+      <details><summary>จะทำงานที่หยุดไปต่อได้อย่างไร</summary><p>เปิดพื้นที่ทำงานอีกครั้งและดูคิวที่กู้คืน ระบบใช้จุดบันทึกที่เข้ากันได้ หากเปลี่ยนโมเดล ภาษา หรือไฟล์ ให้ทำตามข้อความแจ้งเตือน</p></details>
+      <details><summary>ต้องตรวจอะไรเมื่อเสร็จพร้อมคำเตือน</summary><p>ตรวจเครื่องหมายคุณภาพ ช่วงที่ไม่แน่ใจ ข้อความที่ยังเป็นต้นฉบับ และบทพูดสำคัญ</p></details>
+      <details><summary>จะแจ้งปัญหาอย่างไร</summary><p>ระบุสถาปัตยกรรมระบบ เวอร์ชัน ขั้นตอน และวิธีทำให้เกิดปัญหาซ้ำ ลบชื่อสื่อ พาธ ข้อความ และคีย์จากบันทึกก่อนส่ง <a href="https://github.com/BettaChan/toucan-subtitle-downloads/issues">GitHub Issues ↗</a></p></details></section>
+  </div>
+</div>
+
+  </main>
+  <footer class="footer">
+    <div class="frame footer-main">
+      <a class="brand" href="index.html" aria-label="หน้าแรก Toucan Subtitle">
+        <img src="../assets/toucan.png" width="36" height="36" alt="" loading="lazy">
+        <span><strong>Toucan Subtitle</strong><small>ซับนกปากโต</small></span>
+      </a>
+      <nav aria-label="เมนูท้ายหน้า">
+        <a href="downloads.html">ดาวน์โหลด</a><a href="guide.html">คู่มือ</a><a href="guide.html#privacy">ข้อมูลและความเป็นส่วนตัว</a><a href="changelog.html">ประวัติเวอร์ชัน</a><a href="https://github.com/BettaChan/toucan-subtitle-downloads">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
