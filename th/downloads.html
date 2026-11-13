@@ -45,7 +45,7 @@
   <a class="skip" href="#main">ข้ามไปยังเนื้อหาหลัก</a>
   <header class="header">
     <div class="frame header-row">
-      <a class="brand" href="index.html" aria-label="หน้าแรก Toucan Subtitle">
+      <a class="brand" href="./" aria-label="หน้าแรก Toucan Subtitle">
         <img src="../assets/toucan.png" width="36" height="36" alt="">
         <span><strong>Toucan Subtitle</strong><small>ซับนกปากโต</small></span>
       </a>
@@ -69,20 +69,22 @@
 <section class="section frame downloads-section" id="platforms">
   <div class="section-heading"><h2>แพลตฟอร์มและการติดตั้ง</h2><a class="text-link" href="changelog.html">ดูประวัติเวอร์ชัน ↗</a></div>
   <div class="release-note"><p><strong>แอปไม่ได้มาพร้อมโมเดลภาษาขนาดใหญ่</strong> หากต้องการปรับข้อความหรือแปลคำบรรยาย ให้ติดตั้ง Ollama และดาวน์โหลดโมเดล หรือใช้คีย์ API ของคุณเองจากบริการคลาวด์ที่เข้ากันได้กับ OpenAI การถอดเสียงใช้ไฟล์น้ำหนัก Whisper ที่ดาวน์โหลดแยกต่างหาก โดยไม่ต้องใช้ Ollama หรือคีย์ API <a class="text-link" href="guide.html#llm">ดูขั้นตอนตั้งค่า ↗</a></p></div>
-  <div class="release-note"><span class="status">รุ่นทดสอบ 1.2.02</span><p>ไฟล์เหล่านี้จัดทำเพื่อการทดสอบภายใน รุ่นสาธารณะ ไฟล์ และค่าตรวจสอบอยู่ใน GitHub Releases</p></div>
+  <div class="release-note"><span class="status">รุ่นทดสอบ 1.2.02</span><p>ไฟล์เหล่านี้จัดทำเพื่อการทดสอบภายใน รุ่นสาธารณะ ไฟล์ และค่าตรวจสอบอยู่ใน GitHub Releases <strong>ยังไม่มีตัวติดตั้งที่เปิดให้ดาวน์โหลดสาธารณะ</strong></p></div>
   <div class="platform-grid">
     <article class="platform">
       <div class="platform-top"><span class="platform-icon" aria-hidden="true">⌘</span><span class="pill">ARM64</span></div>
       <h3>macOS</h3><p>สำหรับ Mac ที่ใช้ Apple Silicon รองรับ MLX บน GPU และ faster-whisper บน CPU</p>
       <dl class="package-list"><div><dt>ตัวติดตั้ง DMG</dt><dd>289.6 MiB</dd></div><div><dt>ไฟล์ ZIP</dt><dd>291.0 MiB</dd></div></dl>
       <p class="fine">รุ่นทดสอบลงนามแบบ ad hoc ส่วนลายเซ็น Developer ID และการรับรองจาก Apple ยังไม่เสร็จ</p>
+      <p class="fine">GitHub Actions ตรวจสอบ SHA-256 และความสมบูรณ์ของแพ็กเกจทดสอบแล้ว <a class="text-link" href="https://github.com/BettaChan/toucan-subtitle-downloads/actions/runs/43330776354">GitHub Actions ↗</a></p>
       <a class="text-link" href="guide.html#macos">การติดตั้งบน macOS ↗</a>
     </article>
     <article class="platform">
       <div class="platform-top"><span class="platform-icon windows-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="pill">X64</span></div>
       <h3>Windows</h3><p>สำหรับ Windows x64 ใช้ faster-whisper บน CPU และต้องมี Microsoft Visual C++ x64</p>
       <dl class="package-list"><div><dt>ตัวติดตั้ง EXE</dt><dd>145.1 MiB</dd></div><div><dt>ZIP แบบพกพา</dt><dd>201.0 MiB</dd></div></dl>
-      <p class="fine">ตรวจสอบไฟล์บีบอัดแล้ว การติดตั้ง เปิดแอป และถอดเสียงจริงบนเครื่อง Windows ยังรอการทดสอบ</p>
+      <p class="fine">GitHub runner บน Windows x64 ผ่านการติดตั้ง เปิดแอป ตรวจสอบแบบออฟไลน์ และถอดเสียงจากไฟล์จริง <a class="text-link" href="https://github.com/BettaChan/toucan-subtitle-downloads/actions/runs/43328309404">GitHub Actions ↗</a></p>
+      <p class="fine">ยังรอการทดสอบบนเครื่อง Windows จริงและการลงนามรุ่นเผยแพร่</p>
       <a class="text-link" href="guide.html#windows">การติดตั้งบน Windows ↗</a>
     </article>
   </div>
@@ -100,7 +102,7 @@
   </main>
   <footer class="footer">
     <div class="frame footer-main">
-      <a class="brand" href="index.html" aria-label="หน้าแรก Toucan Subtitle">
+      <a class="brand" href="./" aria-label="หน้าแรก Toucan Subtitle">
         <img src="../assets/toucan.png" width="36" height="36" alt="" loading="lazy">
         <span><strong>Toucan Subtitle</strong><small>ซับนกปากโต</small></span>
       </a>
