@@ -45,7 +45,7 @@
   <a class="skip" href="#main">跳到主要内容</a>
   <header class="header">
     <div class="frame header-row">
-      <a class="brand" href="index.html" aria-label="大嘴鸟字幕首页">
+      <a class="brand" href="./" aria-label="大嘴鸟字幕首页">
         <img src="assets/toucan.png" width="36" height="36" alt="">
         <span><strong>大嘴鸟字幕</strong><small>TOUCAN SUBTITLE</small></span>
       </a>
@@ -84,14 +84,15 @@
       <details><summary>Windows 提示运行库缺失怎么办？</summary><p>检查 Visual C++ x64 运行库。应用目录中的 support/diagnose-engine.cmd 可检查引擎依赖。</p></details>
       <details><summary>如何继续中断的任务？</summary><p>重新打开工作台，查看恢复的队列。应用会复用兼容断点。更改模型、源语言或文件后，按提示确认恢复或重做。</p></details>
       <details><summary>看到「完成 ⚠」时该检查什么？</summary><p>查看质量标记、未可靠识别的片段、仍保留原文的条目及关键对白。</p></details>
-      <details><summary>如何反馈问题？</summary><p>提供系统架构、应用版本、任务阶段和复现步骤。提交日志前请移除素材名称、路径、字幕文本和密钥。 <a href="https://github.com/BettaChan/toucan-subtitle-downloads/issues">GitHub Issues ↗</a></p></details></section>
+      <details><summary>如何反馈问题？</summary><p>提供系统架构、应用版本、任务阶段和复现步骤。提交日志前请移除素材名称、路径、字幕文本和密钥。 <a href="https://github.com/BettaChan/toucan-subtitle-downloads/issues">GitHub Issues ↗</a></p></details><details><summary>在本地批量把视频转成 SRT</summary><p>在大嘴鸟字幕中选择「仅转写」并准备 Whisper 权重后，即可在本机批量处理视频目录，导出带时间码的 SRT。这个流程不需要 Ollama 或 API 密钥。 <a href="batch-srt.html">使用指南 ↗</a></p></details><details><summary>用 Ollama 或自备 API 翻译字幕</summary><p>大嘴鸟字幕先在本机用 Whisper 转写音视频，再用你配置的模型翻译字幕。应用保留转写时间轴，把处理后的文字对应回字幕条目。安装包不内置大语言模型。 <a href="bilingual-srt.html">使用指南 ↗</a></p></details></section>
+    <section class="actions"><a class="text-link" href="batch-srt.html">在本地批量把视频转成 SRT ↗</a> <a class="text-link" href="bilingual-srt.html">用 Ollama 或自备 API 翻译字幕 ↗</a></section>
   </div>
 </div>
 
   </main>
   <footer class="footer">
     <div class="frame footer-main">
-      <a class="brand" href="index.html" aria-label="大嘴鸟字幕首页">
+      <a class="brand" href="./" aria-label="大嘴鸟字幕首页">
         <img src="assets/toucan.png" width="36" height="36" alt="" loading="lazy">
         <span><strong>大嘴鸟字幕</strong><small>TOUCAN SUBTITLE</small></span>
       </a>

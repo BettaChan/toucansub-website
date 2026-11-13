@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fd">
+  <title>在本地批量把视频转成 SRT · 大嘴鸟字幕</title>
+  <meta name="description" content="使用 Whisper 在 Apple Silicon Mac 或 Windows x64 上批量转写视频文件夹，处理长任务并从兼容检查点续跑。">
+  <link rel="canonical" href="https://toucansub.app/batch-srt.html">
+  <link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/batch-srt.html">
+  <link rel="alternate" hreflang="en" href="https://toucansub.app/en/batch-srt.html">
+  <link rel="alternate" hreflang="x-default" href="https://toucansub.app/batch-srt.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="大嘴鸟字幕">
+  <meta property="og:title" content="在本地批量把视频转成 SRT · 大嘴鸟字幕">
+  <meta property="og:description" content="使用 Whisper 在 Apple Silicon Mac 或 Windows x64 上批量转写视频文件夹，处理长任务并从兼容检查点续跑。">
+  <meta property="og:url" content="https://toucansub.app/batch-srt.html">
+  <meta property="og:image" content="https://toucansub.app/assets/toucan.png">
+  <meta property="og:image:alt" content="大嘴鸟字幕">
+  <meta property="og:image:width" content="256">
+  <meta property="og:image:height" content="256">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://toucansub.app/batch-srt.html#page","url":"https://toucansub.app/batch-srt.html","name":"在本地批量把视频转成 SRT · 大嘴鸟字幕","description":"使用 Whisper 在 Apple Silicon Mac 或 Windows x64 上批量转写视频文件夹，处理长任务并从兼容检查点续跑。","inLanguage":"zh-CN","isPartOf":{"@id":"https://toucansub.app/#website"},"breadcrumb":{"@id":"https://toucansub.app/batch-srt.html#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://toucansub.app/batch-srt.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://toucansub.app/"},{"@type":"ListItem","position":2,"name":"在本地批量把视频转成 SRT · 大嘴鸟字幕","item":"https://toucansub.app/batch-srt.html"}]}]}</script>
+  <link rel="icon" type="image/png" href="assets/toucan.png">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body class="page-batch-srt">
+  <a class="skip" href="#main">跳到主要内容</a>
+  <header class="header">
+    <div class="frame header-row">
+      <a class="brand" href="./" aria-label="大嘴鸟字幕首页">
+        <img src="assets/toucan.png" width="36" height="36" alt="">
+        <span><strong>大嘴鸟字幕</strong><small>TOUCAN SUBTITLE</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">菜单 <span aria-hidden="true">☰</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="主导航"><a href="features.html">产品功能</a><a href="downloads.html" class="nav-download">下载</a><a href="guide.html">使用指南</a><a href="changelog.html">版本记录</a></nav>
+      <div class="header-actions">
+        <details class="language-menu">
+          <summary aria-label="简体中文 · 语言">简体中文 <span aria-hidden="true">⌄</span></summary>
+          <nav aria-label="语言"><a href="batch-srt.html" lang="zh-CN" hreflang="zh-CN" aria-current="page">简体中文</a><a href="en/batch-srt.html" lang="en" hreflang="en">English</a></nav>
+        </details>
+        <a class="button button-nav" href="downloads.html">下载 <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-head"><div class="frame">
+  <p class="eyebrow"><span></span> 字幕工作流</p><h1>在本地批量把视频转成 SRT</h1>
+  <p>在大嘴鸟字幕中选择「仅转写」并准备 Whisper 权重后，即可在本机批量处理视频目录，导出带时间码的 SRT。这个流程不需要 Ollama 或 API 密钥。</p>
+  <div class="actions"><a class="button button-primary" href="downloads.html">下载 ↗</a><a class="button button-plain" href="guide.html#models">准备模型 ↗</a></div>
+</div></section>
+<div class="frame section docs">
+  <nav class="doc-nav" aria-label="指南目录"><a href="#workflow">示例：一个课程视频文件夹</a><a href="#resume">长视频中断后如何继续</a><a href="#sample">示例文件</a></nav>
+  <div class="doc-body">
+    <section id="workflow"><h2>示例：一个课程视频文件夹</h2><p>假设你有三段课程视频，其中一段很长。先用一段短视频确认所选 Whisper 模型能识别素材语言，再把整个文件夹加入队列。这个例子用于说明操作流程。</p><ol class="guide-list"><li>在「设置 → 语音转写」选择引擎和 Whisper 模型并下载权重。关闭需要远程服务的精修和翻译，选择「仅转写」。</li><li>回到工作台，选择「添加目录（含子目录）」。如果目录已有字幕，检查是否打开了「跳过已有字幕的视频」，以免把跳过的文件误判为处理失败。</li><li>点击「开始批量提取」，在队列里查看进度。任务完成后，在媒体所在目录查看 SRT，抽查首尾字幕和关键片段的时间码。</li></ol></section>
+    <section id="resume"><h2>长视频中断后如何继续</h2><p>重开应用并查看恢复的队列。从任务的更多菜单选择「继续处理（保留已完成片段）」，然后再次开始批量提取。继续处理会复用兼容检查点。更换媒体文件、源语言或主模型时，按提示确认恢复或重做。选择重新开始会清除此任务的检查点。</p><a class="text-link" href="guide.html#faq">常见问题 ↗</a></section>
+    <section id="sample"><h2>导出的 SRT 长什么样</h2><p>下面是四条字幕的原文 SRT 示例，用来展示序号、时间码与单语文本的排列。示例为官网演示文案，无转写速度或准确率含义。</p><div class="guide-panel"><pre><code>1
+00:00:00,000 --&gt; 00:00:04,000
+清晨，我们沿着街道慢慢走。</code></pre><a href="assets/toucan-source-zh-CN.srt" download>下载原文 SRT 样例 ↓</a></div></section>
+    <section><h2>配置精修与翻译模型</h2><p>字幕精修和翻译需要自行安装 Ollama 并下载模型，或自备支持 OpenAI 兼容接口的云端服务 API 密钥。</p><a class="text-link" href="bilingual-srt.html">用 Ollama 或自备 API 翻译字幕 ↗</a></section>
+  </div>
+</div>
+
+  </main>
+  <footer class="footer">
+    <div class="frame footer-main">
+      <a class="brand" href="./" aria-label="大嘴鸟字幕首页">
+        <img src="assets/toucan.png" width="36" height="36" alt="" loading="lazy">
+        <span><strong>大嘴鸟字幕</strong><small>TOUCAN SUBTITLE</small></span>
+      </a>
+      <nav aria-label="页脚导航">
+        <a href="downloads.html">下载</a><a href="guide.html">使用指南</a><a href="guide.html#privacy">数据与隐私</a><a href="changelog.html">版本记录</a><a href="https://github.com/BettaChan/toucan-subtitle-downloads">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

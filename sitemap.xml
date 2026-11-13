@@ -14,7 +14,215 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/" />
   </url>
   <url>
+    <loc>https://toucansub.app/en/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/zh-TW/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/de/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/ko/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/th/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/" />
+  </url>
+  <url>
     <loc>https://toucansub.app/features.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/features.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/features.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/features.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/features.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/features.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/features.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/features.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/features.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/features.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/features.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/en/features.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/features.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/features.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/features.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/features.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/features.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/features.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/features.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/features.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/features.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/features.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/zh-TW/features.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/features.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/features.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/features.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/features.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/features.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/features.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/features.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/features.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/features.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/features.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/de/features.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/features.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/features.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/features.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/features.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/features.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/features.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/features.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/features.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/features.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/features.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/ja/features.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/features.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/features.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/features.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/features.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/features.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/features.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/features.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/features.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/features.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/features.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/ko/features.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/features.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/features.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/features.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/features.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/features.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/features.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/features.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/features.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/features.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/features.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/fr/features.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/features.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/features.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/features.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/features.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/features.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/features.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/features.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/features.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/features.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/features.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/ru/features.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/features.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/features.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/features.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/features.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/features.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/features.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/features.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/features.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/features.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/features.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/th/features.html</loc>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/features.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/features.html" />
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/features.html" />
@@ -40,7 +248,215 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/downloads.html" />
   </url>
   <url>
+    <loc>https://toucansub.app/en/downloads.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/downloads.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/zh-TW/downloads.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/downloads.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/de/downloads.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/downloads.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/ja/downloads.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/downloads.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/ko/downloads.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/downloads.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/fr/downloads.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/downloads.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/ru/downloads.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/downloads.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/th/downloads.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/downloads.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/downloads.html" />
+  </url>
+  <url>
     <loc>https://toucansub.app/guide.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/guide.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/guide.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/guide.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/guide.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/guide.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/guide.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/guide.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/en/guide.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/guide.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/guide.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/guide.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/guide.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/guide.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/guide.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/guide.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/zh-TW/guide.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/guide.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/guide.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/guide.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/guide.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/guide.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/guide.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/guide.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/de/guide.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/guide.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/guide.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/guide.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/guide.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/guide.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/guide.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/guide.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/ja/guide.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/guide.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/guide.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/guide.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/guide.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/guide.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/guide.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/guide.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/ko/guide.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/guide.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/guide.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/guide.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/guide.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/guide.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/guide.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/guide.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/fr/guide.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/guide.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/guide.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/guide.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/guide.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/guide.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/guide.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/guide.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/ru/guide.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/guide.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/guide.html" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/guide.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/guide.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/guide.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/guide.html" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/guide.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/guide.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/th/guide.html</loc>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/guide.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/guide.html" />
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/guide.html" />
@@ -66,58 +482,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/changelog.html" />
   </url>
   <url>
-    <loc>https://toucansub.app/en/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/en/features.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/features.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/features.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/features.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/features.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/features.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/features.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/features.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/features.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/features.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/features.html" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/en/downloads.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/downloads.html" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/en/guide.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/guide.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/guide.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/guide.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/guide.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/guide.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/guide.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/guide.html" />
-  </url>
-  <url>
     <loc>https://toucansub.app/en/changelog.html</loc>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/changelog.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/changelog.html" />
@@ -129,58 +493,6 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/changelog.html" />
     <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/changelog.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/changelog.html" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/zh-TW/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/zh-TW/features.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/features.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/features.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/features.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/features.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/features.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/features.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/features.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/features.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/features.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/features.html" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/zh-TW/downloads.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/downloads.html" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/zh-TW/guide.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/guide.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/guide.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/guide.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/guide.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/guide.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/guide.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/guide.html" />
   </url>
   <url>
     <loc>https://toucansub.app/zh-TW/changelog.html</loc>
@@ -196,58 +508,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/changelog.html" />
   </url>
   <url>
-    <loc>https://toucansub.app/de/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/de/features.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/features.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/features.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/features.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/features.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/features.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/features.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/features.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/features.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/features.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/features.html" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/de/downloads.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/downloads.html" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/de/guide.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/guide.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/guide.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/guide.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/guide.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/guide.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/guide.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/guide.html" />
-  </url>
-  <url>
     <loc>https://toucansub.app/de/changelog.html</loc>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/changelog.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/changelog.html" />
@@ -259,58 +519,6 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/changelog.html" />
     <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/changelog.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/changelog.html" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/ja/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/ja/features.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/features.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/features.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/features.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/features.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/features.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/features.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/features.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/features.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/features.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/features.html" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/ja/downloads.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/downloads.html" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/ja/guide.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/guide.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/guide.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/guide.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/guide.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/guide.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/guide.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/guide.html" />
   </url>
   <url>
     <loc>https://toucansub.app/ja/changelog.html</loc>
@@ -326,58 +534,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/changelog.html" />
   </url>
   <url>
-    <loc>https://toucansub.app/ko/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/ko/features.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/features.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/features.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/features.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/features.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/features.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/features.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/features.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/features.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/features.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/features.html" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/ko/downloads.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/downloads.html" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/ko/guide.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/guide.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/guide.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/guide.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/guide.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/guide.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/guide.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/guide.html" />
-  </url>
-  <url>
     <loc>https://toucansub.app/ko/changelog.html</loc>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/changelog.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/changelog.html" />
@@ -389,58 +545,6 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/changelog.html" />
     <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/changelog.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/changelog.html" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/fr/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/fr/features.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/features.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/features.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/features.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/features.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/features.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/features.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/features.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/features.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/features.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/features.html" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/fr/downloads.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/downloads.html" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/fr/guide.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/guide.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/guide.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/guide.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/guide.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/guide.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/guide.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/guide.html" />
   </url>
   <url>
     <loc>https://toucansub.app/fr/changelog.html</loc>
@@ -456,58 +560,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/changelog.html" />
   </url>
   <url>
-    <loc>https://toucansub.app/ru/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/ru/features.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/features.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/features.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/features.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/features.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/features.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/features.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/features.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/features.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/features.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/features.html" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/ru/downloads.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/downloads.html" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/ru/guide.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/guide.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/guide.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/guide.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/guide.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/guide.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/guide.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/guide.html" />
-  </url>
-  <url>
     <loc>https://toucansub.app/ru/changelog.html</loc>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/changelog.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/changelog.html" />
@@ -521,58 +573,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/changelog.html" />
   </url>
   <url>
-    <loc>https://toucansub.app/th/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/th/features.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/features.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/features.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/features.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/features.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/features.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/features.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/features.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/features.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/features.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/features.html" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/th/downloads.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/downloads.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/downloads.html" />
-  </url>
-  <url>
-    <loc>https://toucansub.app/th/guide.html</loc>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/guide.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/guide.html" />
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/guide.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://toucansub.app/de/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/guide.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/guide.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/guide.html" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/guide.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/guide.html" />
-  </url>
-  <url>
     <loc>https://toucansub.app/th/changelog.html</loc>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/changelog.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/changelog.html" />
@@ -584,5 +584,29 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/changelog.html" />
     <xhtml:link rel="alternate" hreflang="th" href="https://toucansub.app/th/changelog.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/changelog.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/batch-srt.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/batch-srt.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/batch-srt.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/batch-srt.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/en/batch-srt.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/batch-srt.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/batch-srt.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/batch-srt.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/bilingual-srt.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/bilingual-srt.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/bilingual-srt.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/bilingual-srt.html" />
+  </url>
+  <url>
+    <loc>https://toucansub.app/en/bilingual-srt.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/bilingual-srt.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://toucansub.app/en/bilingual-srt.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://toucansub.app/bilingual-srt.html" />
   </url>
 </urlset>

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fd">
+  <title>用 Ollama 或自备 API 翻译字幕 · 大嘴鸟字幕</title>
+  <meta name="description" content="了解本机 Ollama 与 OpenAI 兼容 API 的两种字幕翻译路径、字幕文本去向、时间码和原文与译文的 SRT 交付方式。">
+  <link rel="canonical" href="https://toucansub.app/bilingual-srt.html">
+  <link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/bilingual-srt.html">
+  <link rel="alternate" hreflang="en" href="https://toucansub.app/en/bilingual-srt.html">
+  <link rel="alternate" hreflang="x-default" href="https://toucansub.app/bilingual-srt.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="大嘴鸟字幕">
+  <meta property="og:title" content="用 Ollama 或自备 API 翻译字幕 · 大嘴鸟字幕">
+  <meta property="og:description" content="了解本机 Ollama 与 OpenAI 兼容 API 的两种字幕翻译路径、字幕文本去向、时间码和原文与译文的 SRT 交付方式。">
+  <meta property="og:url" content="https://toucansub.app/bilingual-srt.html">
+  <meta property="og:image" content="https://toucansub.app/assets/toucan.png">
+  <meta property="og:image:alt" content="大嘴鸟字幕">
+  <meta property="og:image:width" content="256">
+  <meta property="og:image:height" content="256">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://toucansub.app/bilingual-srt.html#page","url":"https://toucansub.app/bilingual-srt.html","name":"用 Ollama 或自备 API 翻译字幕 · 大嘴鸟字幕","description":"了解本机 Ollama 与 OpenAI 兼容 API 的两种字幕翻译路径、字幕文本去向、时间码和原文与译文的 SRT 交付方式。","inLanguage":"zh-CN","isPartOf":{"@id":"https://toucansub.app/#website"},"breadcrumb":{"@id":"https://toucansub.app/bilingual-srt.html#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://toucansub.app/bilingual-srt.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://toucansub.app/"},{"@type":"ListItem","position":2,"name":"用 Ollama 或自备 API 翻译字幕 · 大嘴鸟字幕","item":"https://toucansub.app/bilingual-srt.html"}]}]}</script>
+  <link rel="icon" type="image/png" href="assets/toucan.png">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body class="page-bilingual-srt">
+  <a class="skip" href="#main">跳到主要内容</a>
+  <header class="header">
+    <div class="frame header-row">
+      <a class="brand" href="./" aria-label="大嘴鸟字幕首页">
+        <img src="assets/toucan.png" width="36" height="36" alt="">
+        <span><strong>大嘴鸟字幕</strong><small>TOUCAN SUBTITLE</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">菜单 <span aria-hidden="true">☰</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="主导航"><a href="features.html">产品功能</a><a href="downloads.html" class="nav-download">下载</a><a href="guide.html">使用指南</a><a href="changelog.html">版本记录</a></nav>
+      <div class="header-actions">
+        <details class="language-menu">
+          <summary aria-label="简体中文 · 语言">简体中文 <span aria-hidden="true">⌄</span></summary>
+          <nav aria-label="语言"><a href="bilingual-srt.html" lang="zh-CN" hreflang="zh-CN" aria-current="page">简体中文</a><a href="en/bilingual-srt.html" lang="en" hreflang="en">English</a></nav>
+        </details>
+        <a class="button button-nav" href="downloads.html">下载 <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-head"><div class="frame">
+  <p class="eyebrow"><span></span> 字幕翻译</p><h1>用 Ollama 或自备 API 翻译字幕</h1>
+  <p>大嘴鸟字幕先在本机用 Whisper 转写音视频，再用你配置的模型翻译字幕。应用保留转写时间轴，把处理后的文字对应回字幕条目。安装包不内置大语言模型。</p>
+  <div class="actions"><a class="button button-primary" href="guide.html#llm">查看配置步骤 ↗</a><a class="button button-plain" href="downloads.html">下载 ↗</a></div>
+</div></section>
+<div class="frame section docs">
+  <nav class="doc-nav" aria-label="指南目录"><a href="#ollama">路径一：使用本机 Ollama</a><a href="#api">路径二：使用远程 API</a><a href="#sample">对照同一时间轴</a></nav>
+  <div class="doc-body">
+    <section id="ollama"><h2>路径一：使用本机 Ollama</h2><p>安装并启动 Ollama，再下载所选模型。在大嘴鸟字幕中选「翻译字幕」，服务选本机 Ollama，填写模型名称并选择目标语言。使用本机服务时，字幕文本留在本机。</p></section>
+    <section id="api"><h2>路径二：使用远程 API</h2><p>在「翻译字幕」设置中选择 OpenAI 兼容服务，填写服务地址、模型名称和自备 API 密钥，选择目标语言。字幕文本会发往所配置的端点，费用和留存取决于服务方。</p><a class="text-link" href="guide.html#privacy">数据与隐私 ↗</a></section>
+    <section id="sample"><h2>双语预览与 SRT 输出</h2><p>应用可以在同一时间轴预览原文与译文。翻译时保留「输出原语音字幕」即可获得原文和译文两个 SRT。关闭该设置时，只保留最终译文输出。下方两个示例文件时间码相同，供你分别在剪辑或播放工具中查看。</p><div class="guide-panel"><pre><code>1
+00:00:00,000 --&gt; 00:00:04,000
+清晨，我们沿着街道慢慢走。</code></pre><pre><code>1
+00:00:00,000 --&gt; 00:00:04,000
+Early in the morning, we take a slow walk down the street.</code></pre><div class="actions"><a href="assets/toucan-source-zh-CN.srt" download>下载原文 SRT 样例 ↓</a><a href="assets/toucan-translated-zh-CN.srt" download>下载译文 SRT 样例 ↓</a></div></div></section>
+    <section><h2>生成字幕</h2><a class="text-link" href="batch-srt.html">在本地批量把视频转成 SRT ↗</a></section>
+  </div>
+</div>
+
+  </main>
+  <footer class="footer">
+    <div class="frame footer-main">
+      <a class="brand" href="./" aria-label="大嘴鸟字幕首页">
+        <img src="assets/toucan.png" width="36" height="36" alt="" loading="lazy">
+        <span><strong>大嘴鸟字幕</strong><small>TOUCAN SUBTITLE</small></span>
+      </a>
+      <nav aria-label="页脚导航">
+        <a href="downloads.html">下载</a><a href="guide.html">使用指南</a><a href="guide.html#privacy">数据与隐私</a><a href="changelog.html">版本记录</a><a href="https://github.com/BettaChan/toucan-subtitle-downloads">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
