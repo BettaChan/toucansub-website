@@ -76,7 +76,7 @@
       <div class="guide-panel"><h3>macOS</h3><pre><code>shasum -a 256 "installer.dmg"</code></pre><h3>Windows PowerShell</h3><pre><code>Get-FileHash "installer.exe" -Algorithm SHA256</code></pre></div>
     </section>
     <section id="models"><h2>モデルを準備</h2><ol class="guide-list"><li>設定の音声文字起こしでエンジンとモデルサイズを選びます。</li><li>モデルをダウンロードし、完了を待ちます。</li><li>動作チェックで実行環境、エンジン、重みを確認します。</li></ol>
-      <div class="guide-panel" id="llm"><h3>整文・翻訳用モデルの設定</h3><p>ローカル Ollama ではモデル名を入力します。互換サービスには Base URL、API キー、モデル名が必要です。文字起こしのみなら Whisper で十分です。</p></div>
+      <div class="guide-panel" id="llm"><h3>整文・翻訳用モデルの設定</h3><p><strong>アプリに大規模言語モデルは同梱されていません。</strong> 字幕の整文・翻訳には、Ollama をインストールしてモデルを取得するか、OpenAI 互換のクラウドサービスの API キーを用意してください。</p><p>ローカル Ollama ではモデル名を入力します。互換サービスには Base URL、API キー、モデル名が必要です。文字起こしのみなら Whisper で十分です。</p><p>文字起こしには別途取得する Whisper の重みを使用し、Ollama や API キーは不要です。</p></div>
     </section>
     <section id="first-srt"><h2>字幕を作成</h2><ol class="guide-list"><li>作業画面でファイルやフォルダーを追加。</li><li>文字起こし、整文、翻訳を選びます。翻訳では訳先の言語を指定します。</li><li>一括処理を開始し、必要に応じて素材の言語を確認します。</li><li>プレビューを確認し、素材フォルダーで SRT を取得します。</li></ol></section>
     <section id="privacy"><h2>データとプライバシー</h2><div class="guide-panel"><h3>ローカル文字起こし</h3><p>素材の読み込み、音声抽出、Whisper 実行は PC 上で行います。最初の重みの取得にはインターネットが必要です。</p><h3>整文・翻訳の処理先</h3><p>字幕テキストは設定したサービスに送信されます。ローカル Ollama は PC 上で処理し、外部サービスは提供元の処理・保存規定に従います。</p><h3>ウェブデモ</h3><p>ホームのデモは固定サンプルで、素材アップロード機能はありません。</p></div></section>
