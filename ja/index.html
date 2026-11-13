@@ -64,15 +64,14 @@
     <section class="hero">
   <div class="frame hero-inner">
     <div class="hero-copy">
-      <p class="eyebrow"><span></span> ローカル字幕作成</p>
-      <h1>動画や音声に<br><em>字幕を。</em></h1>
-      <p class="hero-description">動画、ポッドキャスト、録音を字幕に。Whisper で文字起こしし、必要に応じて整文や翻訳を行い、SRT で出力できます。</p>
+      <h1>動画や音声に<br><em>自動で字幕を</em></h1>
+      <p class="hero-description">動画、ポッドキャスト、録音からタイムコード付きの字幕を作れます。必要に応じて話し言葉を読みやすく整えたり、別の言語に翻訳したりできます。</p>
       <div class="actions">
-        <a class="button button-primary" href="downloads.html">ダウンロードへ <span aria-hidden="true">↓</span></a>
-        <a class="button button-plain" href="#how">使い方を見る <span aria-hidden="true">↘</span></a>
+        <a class="button button-primary" href="downloads.html">ダウンロードを見る <span aria-hidden="true">↓</span></a>
+        <a class="button button-plain" href="#demo">字幕のサンプルを見る <span aria-hidden="true">↘</span></a>
       </div>
-      <p class="hero-description"><strong>アプリに大規模言語モデルは同梱されていません。</strong> 字幕の整文・翻訳には、Ollama をインストールしてモデルを取得するか、OpenAI 互換のクラウドサービスの API キーを用意してください。 <a class="text-link" href="guide.html#llm">設定手順へ ↗</a></p>
       <p class="hero-platform">macOS Apple Silicon <span></span> Windows x64</p>
+      <p class="hero-setup">初回の文字起こしには音声モデルのダウンロードが必要です。大規模言語モデルは同梱されません。文章の調整・翻訳には Ollama のモデルか、互換サービスの API キーをご用意ください。 <a href="guide.html#llm">設定手順へ ↗</a></p>
     </div>
     <div class="hero-visual" id="demo">
       <div class="demo-window" aria-label="字幕ワークスペース" data-play="字幕デモを再生" data-pause="字幕デモを一時停止">
@@ -111,13 +110,13 @@
 </section>
 <section class="section frame" id="how">
   <div class="section-heading">
-    <div><p class="eyebrow">字幕作成の流れ</p><h2>3 ステップで SRT に。</h2></div>
+    <h2>素材から字幕へ</h2>
     <a class="text-link" href="guide.html">ガイドを見る <span aria-hidden="true">↗</span></a>
   </div>
   <div class="workflow">
-    <article><span class="tile-icon" aria-hidden="true">＋</span><h3>素材を追加</h3><p>ファイルやフォルダーを追加して、動画や録音を同じキューで処理します。</p></article>
-    <article><span class="tile-icon purple" aria-hidden="true">≋</span><h3>文字起こしと編集</h3><p>Whisper をローカルで実行し、必要に応じて任意のモデルで整文や翻訳を行います。</p></article>
-    <article><span class="tile-icon green" aria-hidden="true">↓</span><h3>確認して出力</h3><p>タイムライン上で原文と訳文を比較し、処理が終わったら SRT を取得できます。</p></article>
+    <article><span class="tile-icon" aria-hidden="true">≋</span><h3>動画も、ポッドキャストも、録音も</h3><p>インタビューや講座、ボイスメモの音声を読める字幕にします。</p></article>
+    <article><span class="tile-icon purple" aria-hidden="true">⇄</span><h3>原文と訳文を見比べる</h3><p>同じタイムラインで両方をプレビューし、大切なせりふを確認できます。</p></article>
+    <article><span class="tile-icon green" aria-hidden="true">↓</span><h3>字幕を編集ソフトへ</h3><p>標準の SRT 形式で書き出し、動画編集ソフトで作業を続けられます。</p></article>
   </div>
 </section>
 <section class="section section-soft">
@@ -129,14 +128,6 @@
       <div class="actions"><a class="text-link" href="features.html">機能を見る <span aria-hidden="true">↗</span></a> </div>
     </div>
     <figure class="product-shot"><img src="../assets/workbench.png" width="1920" height="1146" alt="キュー、進捗、字幕プレビューの作業画面" loading="lazy"><figcaption>作業画面のデザイン例 · サンプルデータ · 中国語 UI</figcaption></figure>
-  </div>
-</section>
-<section class="section frame">
-  <div class="section-heading"><div><p class="eyebrow">活用例</p><h2>さまざまな素材に字幕を。</h2></div></div>
-  <div class="use-cases">
-    <article><span>動画制作</span><h3>SRT を編集ソフトへ</h3><p>インタビュー、Vlog、製品デモ用のタイムコード付き字幕を作成。</p></article>
-    <article><span>ポッドキャストと講座</span><h3>長い録音を文章に</h3><p>講義、発表、ポッドキャストに読み返せる字幕を。</p></article>
-    <article><span>多言語コンテンツ</span><h3>原文と訳文を比較</h3><p>原語字幕を残し、必要に応じて訳文を生成。</p></article>
   </div>
 </section>
 <section class="frame section end-section"><div class="end-banner">
