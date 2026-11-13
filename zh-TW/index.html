@@ -64,15 +64,14 @@
     <section class="hero">
   <div class="frame hero-inner">
     <div class="hero-copy">
-      <p class="eyebrow"><span></span> 本機字幕工作台</p>
-      <h1>用 Whisper 將影片<br><em>轉成 SRT</em></h1>
-      <p class="hero-description">準備 Whisper 權重後，可在 Apple Silicon Mac 或 Windows x64 上本機轉錄影片、Podcast 和錄音，批次匯出帶時間碼的 SRT。</p>
+      <h1>為影片和錄音<br><em>自動加上字幕</em></h1>
+      <p class="hero-description">匯入影片、Podcast 或錄音，就能產生帶時間碼的字幕。也可依需求整理口語文字，或翻譯成另一種語言的字幕。</p>
       <div class="actions">
-        <a class="button button-primary" href="downloads.html">前往下載 <span aria-hidden="true">↓</span></a>
-        <a class="button button-plain" href="#how">查看使用方式 <span aria-hidden="true">↘</span></a>
+        <a class="button button-primary" href="downloads.html">查看下載 <span aria-hidden="true">↓</span></a>
+        <a class="button button-plain" href="#demo">看看字幕範例 <span aria-hidden="true">↘</span></a>
       </div>
-      <p class="hero-description"><strong>安裝檔未內建大型語言模型。</strong> 字幕潤飾與翻譯需自行安裝 Ollama 並下載模型，或自備支援 OpenAI 相容介面的雲端服務 API 金鑰。 <a class="text-link" href="guide.html#llm">查看設定步驟 ↗</a></p>
       <p class="hero-platform">macOS Apple Silicon <span></span> Windows x64</p>
+      <p class="hero-setup">首次轉錄需下載語音模型。安裝檔未內建大型語言模型，潤飾與翻譯需自備 Ollama 模型或相容服務的 API 金鑰。 <a href="guide.html#llm">查看設定步驟 ↗</a></p>
     </div>
     <div class="hero-visual" id="demo">
       <div class="demo-window" aria-label="字幕工作台" data-play="播放字幕示範" data-pause="暫停字幕示範">
@@ -111,13 +110,13 @@
 </section>
 <section class="section frame" id="how">
   <div class="section-heading">
-    <div><p class="eyebrow">字幕工作流程</p><h2>從素材到 SRT，只需三步。</h2></div>
+    <h2>從素材到字幕</h2>
     <a class="text-link" href="guide.html">查看使用指南 <span aria-hidden="true">↗</span></a>
   </div>
   <div class="workflow">
-    <article><span class="tile-icon" aria-hidden="true">＋</span><h3>匯入素材</h3><p>加入單一檔案或整個資料夾，將影片、Podcast 和錄音排入同一佇列。</p></article>
-    <article><span class="tile-icon purple" aria-hidden="true">≋</span><h3>轉錄並處理字幕</h3><p>用 Whisper 在本機產生原文，依需求連接自選模型來潤飾或翻譯。</p></article>
-    <article><span class="tile-icon green" aria-hidden="true">↓</span><h3>預覽並匯出</h3><p>對照時間軸檢查原文與譯文，處理完成後取得標準 SRT。</p></article>
+    <article><span class="tile-icon" aria-hidden="true">≋</span><h3>影片、Podcast、錄音都能轉</h3><p>從訪談、課程到隨手錄下的語音，將聽到的內容變成看得見的字幕。</p></article>
+    <article><span class="tile-icon purple" aria-hidden="true">⇄</span><h3>對照原文與譯文</h3><p>在同一條時間軸預覽兩種字幕，方便檢查重要對白。</p></article>
+    <article><span class="tile-icon green" aria-hidden="true">↓</span><h3>將字幕帶到剪輯軟體</h3><p>匯出標準 SRT，在剪輯軟體中繼續編輯。</p></article>
   </div>
 </section>
 <section class="section section-soft">
@@ -129,14 +128,6 @@
       <div class="actions"><a class="text-link" href="features.html">探索產品功能 <span aria-hidden="true">↗</span></a> </div>
     </div>
     <figure class="product-shot"><img src="../assets/workbench.png" width="1920" height="1146" alt="顯示任務佇列、整體進度與字幕預覽的工作台" loading="lazy"><figcaption>工作台設計預覽 · 範例資料 · 簡體中文介面</figcaption></figure>
-  </div>
-</section>
-<section class="section frame">
-  <div class="section-heading"><div><p class="eyebrow">使用情境</p><h2>為不同類型的素材加上字幕。</h2></div></div>
-  <div class="use-cases">
-    <article><span>影片製作</span><h3>將 SRT 匯回剪輯軟體</h3><p>為訪談、Vlog 或產品展示產生帶時間碼的字幕。</p></article>
-    <article><span>Podcast 與課程</span><h3>為長錄音留下文字版本</h3><p>為課程、講座和 Podcast 產生可回顧、可對照的文字。</p></article>
-    <article><span>跨語言內容</span><h3>對照原文檢查譯文</h3><p>保留原語言字幕，依需求產生目標語言字幕。</p></article>
   </div>
 </section>
 <section class="frame section end-section"><div class="end-banner">
