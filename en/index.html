@@ -64,15 +64,14 @@
     <section class="hero">
   <div class="frame hero-inner">
     <div class="hero-copy">
-      <p class="eyebrow"><span></span> Local subtitle workspace</p>
-      <h1>Turn videos into<br><em>SRT subtitles</em></h1>
-      <p class="hero-description">Download Whisper weights to transcribe videos, podcasts and recordings locally on Apple Silicon Macs or Windows x64, then export timecoded SRT files.</p>
+      <h1>Automatic subtitles<br><em>for video and audio</em></h1>
+      <p class="hero-description">Turn videos, podcasts, and recordings into timestamped subtitles. Polish spoken text for easier reading or translate it when you need another language.</p>
       <div class="actions">
-        <a class="button button-primary" href="downloads.html">Go to downloads <span aria-hidden="true">↓</span></a>
-        <a class="button button-plain" href="#how">See how it works <span aria-hidden="true">↘</span></a>
+        <a class="button button-primary" href="downloads.html">View downloads <span aria-hidden="true">↓</span></a>
+        <a class="button button-plain" href="#demo">See a subtitle example <span aria-hidden="true">↘</span></a>
       </div>
-      <p class="hero-description"><strong>No large language model is bundled with the app.</strong> To polish or translate subtitles, install Ollama and download a model, or supply your own API key for an OpenAI-compatible cloud service. <a class="text-link" href="guide.html#llm">View setup steps ↗</a></p>
       <p class="hero-platform">macOS Apple Silicon <span></span> Windows x64</p>
+      <p class="hero-setup">First-time transcription requires a speech model download. The app includes no large language model. Polishing and translation require your own Ollama model or a compatible service API key. <a href="guide.html#llm">View setup steps ↗</a></p>
     </div>
     <div class="hero-visual" id="demo">
       <div class="demo-window" aria-label="Subtitle workspace" data-play="Play subtitle demo" data-pause="Pause subtitle demo">
@@ -111,13 +110,13 @@
 </section>
 <section class="section frame" id="how">
   <div class="section-heading">
-    <div><p class="eyebrow">Subtitle workflow</p><h2>From media to SRT in three steps.</h2></div>
+    <h2>From media to subtitles</h2>
     <a class="text-link" href="guide.html">Read the guide <span aria-hidden="true">↗</span></a>
   </div>
   <div class="workflow">
-    <article><span class="tile-icon" aria-hidden="true">＋</span><h3>Import your media</h3><p>Add files or a whole folder. Queue videos, podcasts and recordings together.</p></article>
-    <article><span class="tile-icon purple" aria-hidden="true">≋</span><h3>Transcribe and process</h3><p>Run Whisper locally. Connect a model of your choice to polish or translate.</p></article>
-    <article><span class="tile-icon green" aria-hidden="true">↓</span><h3>Preview and export</h3><p>Compare the source and translation against the timeline, then collect the finished SRT files.</p></article>
+    <article><span class="tile-icon" aria-hidden="true">≋</span><h3>Video, podcasts, and recordings</h3><p>Turn interviews, lessons, and voice notes into subtitles you can read.</p></article>
+    <article><span class="tile-icon purple" aria-hidden="true">⇄</span><h3>Compare original and translation</h3><p>Preview both on the same timeline so you can check important lines.</p></article>
+    <article><span class="tile-icon green" aria-hidden="true">↓</span><h3>Take your subtitles with you</h3><p>Export standard SRT files and continue editing in your video editor.</p></article>
   </div>
 </section>
 <section class="section section-soft">
@@ -129,14 +128,6 @@
       <div class="actions"><a class="text-link" href="features.html">Explore features <span aria-hidden="true">↗</span></a> <a class="text-link" href="batch-srt.html">Batch convert videos to SRT offline ↗</a> <a class="text-link" href="bilingual-srt.html">Translate subtitles with Ollama or your own API key ↗</a></div>
     </div>
     <figure class="product-shot"><img src="../assets/workbench.png" width="1920" height="1146" alt="Workspace with a queue, overall progress and subtitle preview" loading="lazy"><figcaption>Workspace design preview · Sample data · Chinese UI</figcaption></figure>
-  </div>
-</section>
-<section class="section frame">
-  <div class="section-heading"><div><p class="eyebrow">Use cases</p><h2>Subtitles for different kinds of media.</h2></div></div>
-  <div class="use-cases">
-    <article><span>Video production</span><h3>Take the SRT back to your editor</h3><p>Create timed subtitles for interviews, vlogs and product demos.</p></article>
-    <article><span>Podcasts and courses</span><h3>Put long recordings into words</h3><p>Give listeners a written version of lessons, talks and podcasts.</p></article>
-    <article><span>Multilingual content</span><h3>Compare source and translation</h3><p>Keep source-language subtitles and generate a target-language file when needed.</p></article>
   </div>
 </section>
 <section class="frame section end-section"><div class="end-banner">
