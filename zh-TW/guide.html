@@ -76,7 +76,7 @@
       <div class="guide-panel"><h3>macOS</h3><pre><code>shasum -a 256 "installer.dmg"</code></pre><h3>Windows PowerShell</h3><pre><code>Get-FileHash "installer.exe" -Algorithm SHA256</code></pre></div>
     </section>
     <section id="models"><h2>準備模型</h2><ol class="guide-list"><li>開啟「設定 → 語音轉錄」，選擇引擎與模型大小。</li><li>下載轉錄模型，等待權重下載完成。</li><li>開啟健康檢查，確認執行環境、引擎與權重均可用。</li></ol>
-      <div class="guide-panel" id="llm"><h3>設定潤飾與翻譯模型</h3><p>使用本機 Ollama 時填寫模型名稱，使用 OpenAI 相容服務時填寫 Base URL、API Key 與模型名稱。僅轉錄只需 Whisper。</p></div>
+      <div class="guide-panel" id="llm"><h3>設定潤飾與翻譯模型</h3><p><strong>安裝檔未內建大型語言模型。</strong> 字幕潤飾與翻譯需自行安裝 Ollama 並下載模型，或自備支援 OpenAI 相容介面的雲端服務 API 金鑰。</p><p>使用本機 Ollama 時填寫模型名稱，使用 OpenAI 相容服務時填寫 Base URL、API Key 與模型名稱。僅轉錄只需 Whisper。</p><p>僅轉錄使用另行下載的 Whisper 權重，無需 Ollama 或 API 金鑰。</p></div>
     </section>
     <section id="first-srt"><h2>產生字幕</h2><ol class="guide-list"><li>返回工作台，加入檔案或資料夾。</li><li>選擇僅轉錄、原文潤飾或翻譯字幕，翻譯時選擇目標語言。</li><li>開始批次並查看進度。若出現來源語言提示，請確認素材的實際語言。</li><li>完成後檢查字幕預覽，再到媒體所在資料夾查看 SRT。</li></ol></section>
     <section id="privacy"><h2>資料與隱私</h2><div class="guide-panel"><h3>本機轉錄</h3><p>應用程式在電腦上讀取素材、擷取音訊並執行 Whisper。首次下載權重需要網路。</p><h3>潤飾與翻譯在哪裡執行</h3><p>字幕文字會傳至你設定的模型端點。本機 Ollama 會在電腦上處理，遠端服務則依服務商的處理與留存規則運作。</p><h3>官網示範</h3><p>首頁使用固定範例，頁面沒有媒體上傳功能。</p></div></section>
