@@ -45,7 +45,7 @@
   <a class="skip" href="#main">Aller au contenu</a>
   <header class="header">
     <div class="frame header-row">
-      <a class="brand" href="index.html" aria-label="Accueil Toucan Subtitle">
+      <a class="brand" href="./" aria-label="Accueil Toucan Subtitle">
         <img src="../assets/toucan.png" width="36" height="36" alt="">
         <span><strong>Toucan Subtitle</strong><small>Sous-titres Grand Bec</small></span>
       </a>
@@ -69,20 +69,22 @@
 <section class="section frame downloads-section" id="platforms">
   <div class="section-heading"><h2>Plateformes et installation</h2><a class="text-link" href="changelog.html">Voir l’historique ↗</a></div>
   <div class="release-note"><p><strong>L’application n’inclut aucun grand modèle de langage.</strong> Pour réviser ou traduire des sous-titres, installez Ollama et téléchargez un modèle, ou fournissez votre propre clé API pour un service cloud compatible OpenAI. La transcription utilise des poids Whisper à télécharger séparément et ne nécessite ni Ollama ni clé API. <a class="text-link" href="guide.html#llm">Voir les étapes ↗</a></p></div>
-  <div class="release-note"><span class="status">Version candidate 1.2.02</span><p>Ces fichiers sont destinés à la validation interne. GitHub Releases répertorie les versions publiques, fichiers et sommes de contrôle.</p></div>
+  <div class="release-note"><span class="status">Version candidate 1.2.02</span><p>Ces fichiers sont destinés à la validation interne. GitHub Releases répertorie les versions publiques, fichiers et sommes de contrôle. <strong>Les installateurs publics ne sont pas encore disponibles.</strong></p></div>
   <div class="platform-grid">
     <article class="platform">
       <div class="platform-top"><span class="platform-icon" aria-hidden="true">⌘</span><span class="pill">ARM64</span></div>
       <h3>macOS</h3><p>Pour Mac Apple Silicon, avec MLX sur GPU et faster-whisper sur CPU.</p>
       <dl class="package-list"><div><dt>Installateur DMG</dt><dd>289.6 MiB</dd></div><div><dt>Archive ZIP</dt><dd>291.0 MiB</dd></div></dl>
       <p class="fine">Signature ad hoc. La signature Developer ID et la notarisation Apple restent à effectuer.</p>
+      <p class="fine">GitHub Actions a vérifié les sommes SHA-256 et l’intégrité des archives candidates. <a class="text-link" href="https://github.com/BettaChan/toucan-subtitle-downloads/actions/runs/43330776354">GitHub Actions ↗</a></p>
       <a class="text-link" href="guide.html#macos">Installation macOS ↗</a>
     </article>
     <article class="platform">
       <div class="platform-top"><span class="platform-icon windows-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="pill">X64</span></div>
       <h3>Windows</h3><p>Pour Windows x64, avec faster-whisper sur CPU et l’environnement Microsoft Visual C++ x64.</p>
       <dl class="package-list"><div><dt>Installateur EXE</dt><dd>145.1 MiB</dd></div><div><dt>ZIP portable</dt><dd>201.0 MiB</dd></div></dl>
-      <p class="fine">Archives vérifiées. L’installation, le lancement et la transcription sur une machine Windows restent à valider.</p>
+      <p class="fine">Un runner GitHub sous Windows x64 a validé l’installation, le lancement, le diagnostic hors ligne et la transcription audio. <a class="text-link" href="https://github.com/BettaChan/toucan-subtitle-downloads/actions/runs/43328309404">GitHub Actions ↗</a></p>
+      <p class="fine">Les tests sur une machine Windows physique et la signature de publication restent à confirmer.</p>
       <a class="text-link" href="guide.html#windows">Installation Windows ↗</a>
     </article>
   </div>
@@ -100,7 +102,7 @@
   </main>
   <footer class="footer">
     <div class="frame footer-main">
-      <a class="brand" href="index.html" aria-label="Accueil Toucan Subtitle">
+      <a class="brand" href="./" aria-label="Accueil Toucan Subtitle">
         <img src="../assets/toucan.png" width="36" height="36" alt="" loading="lazy">
         <span><strong>Toucan Subtitle</strong><small>Sous-titres Grand Bec</small></span>
       </a>
