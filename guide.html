@@ -76,7 +76,7 @@
       <div class="guide-panel"><h3>macOS</h3><pre><code>shasum -a 256 "installer.dmg"</code></pre><h3>Windows PowerShell</h3><pre><code>Get-FileHash "installer.exe" -Algorithm SHA256</code></pre></div>
     </section>
     <section id="models"><h2>准备模型</h2><ol class="guide-list"><li>打开「设置 → 语音转写」，选择引擎和模型大小。</li><li>点击「下载转写模型」，等待权重下载完成。</li><li>打开「健康度检查」，确认运行环境、引擎和权重可用。</li></ol>
-      <div class="guide-panel" id="llm"><h3>配置精修与翻译模型</h3><p>选择本地 Ollama 并填写模型名，或为 OpenAI 兼容服务填写 Base URL、API Key 和模型名。仅转写只需 Whisper。</p></div>
+      <div class="guide-panel" id="llm"><h3>配置精修与翻译模型</h3><p><strong>安装包不内置大语言模型。</strong> 字幕精修和翻译需要自行安装 Ollama 并下载模型，或自备支持 OpenAI 兼容接口的云端服务 API 密钥。</p><p>选择本地 Ollama 并填写模型名，或为 OpenAI 兼容服务填写 Base URL、API Key 和模型名。仅转写只需 Whisper。</p><p>仅转写使用另行下载的 Whisper 权重，无需 Ollama 或 API 密钥。</p></div>
     </section>
     <section id="first-srt"><h2>生成字幕</h2><ol class="guide-list"><li>返回工作台，添加文件或目录。</li><li>选择仅转写、精修原文或翻译字幕，翻译时选择目标语言。</li><li>开始批次并查看进度。若提示确认源语言，请选择素材的实际语言。</li><li>完成后检查字幕预览，到媒体所在目录查看 SRT。</li></ol></section>
     <section id="privacy"><h2>数据与隐私</h2><div class="guide-panel"><h3>本机转写</h3><p>应用在电脑上读取素材、抽取音频并运行 Whisper。首次下载权重需要联网。</p><h3>精修和翻译的服务边界</h3><p>字幕文本发送到你配置的模型端点。本机 Ollama 在本机处理，远程服务的处理和留存取决于服务方。</p><h3>官网演示</h3><p>首页使用固定示例，页面没有媒体上传入口。</p></div></section>
