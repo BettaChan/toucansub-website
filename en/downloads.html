@@ -45,7 +45,7 @@
   <a class="skip" href="#main">Skip to main content</a>
   <header class="header">
     <div class="frame header-row">
-      <a class="brand" href="index.html" aria-label="Toucan Subtitle home">
+      <a class="brand" href="./" aria-label="Toucan Subtitle home">
         <img src="../assets/toucan.png" width="36" height="36" alt="">
         <span><strong>Toucan Subtitle</strong><small>Big Beak Subtitles</small></span>
       </a>
@@ -69,20 +69,22 @@
 <section class="section frame downloads-section" id="platforms">
   <div class="section-heading"><h2>Platforms and installation</h2><a class="text-link" href="changelog.html">View changelog ↗</a></div>
   <div class="release-note"><p><strong>No large language model is bundled with the app.</strong> To polish or translate subtitles, install Ollama and download a model, or supply your own API key for an OpenAI-compatible cloud service. Transcription uses separately downloaded Whisper weights and requires neither Ollama nor an API key. <a class="text-link" href="guide.html#llm">View setup steps ↗</a></p></div>
-  <div class="release-note"><span class="status">Candidate 1.2.02</span><p>These packages were built for internal validation. See GitHub Releases for public versions, assets and checksums.</p></div>
+  <div class="release-note"><span class="status">Candidate 1.2.02</span><p>These packages were built for internal validation. See GitHub Releases for public versions, assets and checksums. <strong>Public installers are not yet available.</strong></p></div>
   <div class="platform-grid">
     <article class="platform">
       <div class="platform-top"><span class="platform-icon" aria-hidden="true">⌘</span><span class="pill">ARM64</span></div>
       <h3>macOS</h3><p>For Apple Silicon Mac. Supports MLX GPU and faster-whisper CPU transcription.</p>
       <dl class="package-list"><div><dt>DMG installer</dt><dd>289.6 MiB</dd></div><div><dt>ZIP archive</dt><dd>291.0 MiB</dd></div></dl>
       <p class="fine">The candidate is ad-hoc signed. Developer ID signing and Apple notarization are pending.</p>
+      <p class="fine">GitHub Actions verified candidate checksums and archive integrity. <a class="text-link" href="https://github.com/BettaChan/toucan-subtitle-downloads/actions/runs/43330776354">GitHub Actions ↗</a></p>
       <a class="text-link" href="guide.html#macos">macOS installation ↗</a>
     </article>
     <article class="platform">
       <div class="platform-top"><span class="platform-icon windows-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="pill">X64</span></div>
       <h3>Windows</h3><p>For Windows x64. Uses faster-whisper CPU transcription and requires the Microsoft Visual C++ x64 runtime.</p>
       <dl class="package-list"><div><dt>EXE installer</dt><dd>145.1 MiB</dd></div><div><dt>Portable ZIP</dt><dd>201.0 MiB</dd></div></dl>
-      <p class="fine">Archive checks passed. Installation, launch and real transcription on Windows hardware are pending.</p>
+      <p class="fine">A GitHub Windows x64 runner passed installation, launch, offline diagnostics and transcription of real audio. <a class="text-link" href="https://github.com/BettaChan/toucan-subtitle-downloads/actions/runs/43328309404">GitHub Actions ↗</a></p>
+      <p class="fine">Physical Windows hardware testing and release signing are pending.</p>
       <a class="text-link" href="guide.html#windows">Windows installation ↗</a>
     </article>
   </div>
@@ -100,7 +102,7 @@
   </main>
   <footer class="footer">
     <div class="frame footer-main">
-      <a class="brand" href="index.html" aria-label="Toucan Subtitle home">
+      <a class="brand" href="./" aria-label="Toucan Subtitle home">
         <img src="../assets/toucan.png" width="36" height="36" alt="" loading="lazy">
         <span><strong>Toucan Subtitle</strong><small>Big Beak Subtitles</small></span>
       </a>

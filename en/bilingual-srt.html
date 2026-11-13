@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fd">
+  <title>Translate subtitles with Ollama or your own API key · Toucan Subtitle</title>
+  <meta name="description" content="Compare local Ollama and OpenAI-compatible API translation, see where subtitle text goes, and inspect separate source and translated SRT files with matching timecodes.">
+  <link rel="canonical" href="https://toucansub.app/en/bilingual-srt.html">
+  <link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/bilingual-srt.html">
+  <link rel="alternate" hreflang="en" href="https://toucansub.app/en/bilingual-srt.html">
+  <link rel="alternate" hreflang="x-default" href="https://toucansub.app/bilingual-srt.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Toucan Subtitle">
+  <meta property="og:title" content="Translate subtitles with Ollama or your own API key · Toucan Subtitle">
+  <meta property="og:description" content="Compare local Ollama and OpenAI-compatible API translation, see where subtitle text goes, and inspect separate source and translated SRT files with matching timecodes.">
+  <meta property="og:url" content="https://toucansub.app/en/bilingual-srt.html">
+  <meta property="og:image" content="https://toucansub.app/assets/toucan.png">
+  <meta property="og:image:alt" content="Toucan Subtitle">
+  <meta property="og:image:width" content="256">
+  <meta property="og:image:height" content="256">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://toucansub.app/en/bilingual-srt.html#page","url":"https://toucansub.app/en/bilingual-srt.html","name":"Translate subtitles with Ollama or your own API key · Toucan Subtitle","description":"Compare local Ollama and OpenAI-compatible API translation, see where subtitle text goes, and inspect separate source and translated SRT files with matching timecodes.","inLanguage":"en","isPartOf":{"@id":"https://toucansub.app/#website"},"breadcrumb":{"@id":"https://toucansub.app/en/bilingual-srt.html#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://toucansub.app/en/bilingual-srt.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://toucansub.app/en/"},{"@type":"ListItem","position":2,"name":"Translate subtitles with Ollama or your own API key · Toucan Subtitle","item":"https://toucansub.app/en/bilingual-srt.html"}]}]}</script>
+  <link rel="icon" type="image/png" href="../assets/toucan.png">
+  <link rel="stylesheet" href="../assets/site.css">
+  <script src="../assets/site.js" defer></script>
+</head>
+<body class="page-bilingual-srt">
+  <a class="skip" href="#main">Skip to main content</a>
+  <header class="header">
+    <div class="frame header-row">
+      <a class="brand" href="./" aria-label="Toucan Subtitle home">
+        <img src="../assets/toucan.png" width="36" height="36" alt="">
+        <span><strong>Toucan Subtitle</strong><small>Big Beak Subtitles</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">☰</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation"><a href="features.html">Features</a><a href="downloads.html" class="nav-download">Download</a><a href="guide.html">User guide</a><a href="changelog.html">Changelog</a></nav>
+      <div class="header-actions">
+        <details class="language-menu">
+          <summary aria-label="English · Language">English <span aria-hidden="true">⌄</span></summary>
+          <nav aria-label="Language"><a href="../bilingual-srt.html" lang="zh-CN" hreflang="zh-CN">简体中文</a><a href="bilingual-srt.html" lang="en" hreflang="en" aria-current="page">English</a></nav>
+        </details>
+        <a class="button button-nav" href="downloads.html">Download <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-head"><div class="frame">
+  <p class="eyebrow"><span></span> Translate subtitles</p><h1>Translate subtitles with Ollama or your own API key</h1>
+  <p>Toucan Subtitle transcribes the media locally with Whisper, then uses a model you configure to translate the subtitle text. The app retains the transcription timeline and matches the translated text to its cues. The installer does not bundle a large language model.</p>
+  <div class="actions"><a class="button button-primary" href="guide.html#llm">View setup steps ↗</a><a class="button button-plain" href="downloads.html">Download ↗</a></div>
+</div></section>
+<div class="frame section docs">
+  <nav class="doc-nav" aria-label="On this page"><a href="#ollama">Option 1: Local Ollama</a><a href="#api">Option 2: Remote API</a><a href="#sample">Compare matching timecodes</a></nav>
+  <div class="doc-body">
+    <section id="ollama"><h2>Option 1: Local Ollama</h2><p>Install and start Ollama, then download your chosen model. In Toucan Subtitle, select subtitle translation, choose local Ollama, enter the model name and select a target language. With a local service, the subtitle text stays on your computer.</p></section>
+    <section id="api"><h2>Option 2: Remote API</h2><p>In translation settings, select an OpenAI-compatible service, enter its endpoint URL, model name and your own API key, then choose a target language. Subtitle text goes to that endpoint. Fees and retention depend on your provider.</p><a class="text-link" href="guide.html#privacy">Data and privacy ↗</a></section>
+    <section id="sample"><h2>Bilingual preview and SRT output</h2><p>The app previews original and translated text on the same timeline. Keep the original-subtitle output enabled to get separate source and translated SRT files. Turn it off to keep only the final translation output. The two illustrative files below use matching timecodes.</p><div class="guide-panel"><pre><code>1
+00:00:00,000 --&gt; 00:00:04,000
+Early in the morning, we take a slow walk down the street.</code></pre><pre><code>1
+00:00:00,000 --&gt; 00:00:04,000
+清晨，我們沿著街道慢慢走。</code></pre><div class="actions"><a href="../assets/toucan-source-en.srt" download>Download source SRT sample ↓</a><a href="../assets/toucan-translated-en.srt" download>Download translated SRT sample ↓</a></div></div></section>
+    <section><h2>Generate subtitles</h2><a class="text-link" href="batch-srt.html">Batch convert videos to SRT offline ↗</a></section>
+  </div>
+</div>
+
+  </main>
+  <footer class="footer">
+    <div class="frame footer-main">
+      <a class="brand" href="./" aria-label="Toucan Subtitle home">
+        <img src="../assets/toucan.png" width="36" height="36" alt="" loading="lazy">
+        <span><strong>Toucan Subtitle</strong><small>Big Beak Subtitles</small></span>
+      </a>
+      <nav aria-label="Footer navigation">
+        <a href="downloads.html">Download</a><a href="guide.html">User guide</a><a href="guide.html#privacy">Data and privacy</a><a href="changelog.html">Changelog</a><a href="https://github.com/BettaChan/toucan-subtitle-downloads">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fd">
+  <title>Batch convert videos to SRT offline · Toucan Subtitle</title>
+  <meta name="description" content="Transcribe a folder of videos locally with Whisper on Apple Silicon Mac or Windows x64, manage long jobs, and resume from compatible checkpoints.">
+  <link rel="canonical" href="https://toucansub.app/en/batch-srt.html">
+  <link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/batch-srt.html">
+  <link rel="alternate" hreflang="en" href="https://toucansub.app/en/batch-srt.html">
+  <link rel="alternate" hreflang="x-default" href="https://toucansub.app/batch-srt.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Toucan Subtitle">
+  <meta property="og:title" content="Batch convert videos to SRT offline · Toucan Subtitle">
+  <meta property="og:description" content="Transcribe a folder of videos locally with Whisper on Apple Silicon Mac or Windows x64, manage long jobs, and resume from compatible checkpoints.">
+  <meta property="og:url" content="https://toucansub.app/en/batch-srt.html">
+  <meta property="og:image" content="https://toucansub.app/assets/toucan.png">
+  <meta property="og:image:alt" content="Toucan Subtitle">
+  <meta property="og:image:width" content="256">
+  <meta property="og:image:height" content="256">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://toucansub.app/en/batch-srt.html#page","url":"https://toucansub.app/en/batch-srt.html","name":"Batch convert videos to SRT offline · Toucan Subtitle","description":"Transcribe a folder of videos locally with Whisper on Apple Silicon Mac or Windows x64, manage long jobs, and resume from compatible checkpoints.","inLanguage":"en","isPartOf":{"@id":"https://toucansub.app/#website"},"breadcrumb":{"@id":"https://toucansub.app/en/batch-srt.html#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://toucansub.app/en/batch-srt.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://toucansub.app/en/"},{"@type":"ListItem","position":2,"name":"Batch convert videos to SRT offline · Toucan Subtitle","item":"https://toucansub.app/en/batch-srt.html"}]}]}</script>
+  <link rel="icon" type="image/png" href="../assets/toucan.png">
+  <link rel="stylesheet" href="../assets/site.css">
+  <script src="../assets/site.js" defer></script>
+</head>
+<body class="page-batch-srt">
+  <a class="skip" href="#main">Skip to main content</a>
+  <header class="header">
+    <div class="frame header-row">
+      <a class="brand" href="./" aria-label="Toucan Subtitle home">
+        <img src="../assets/toucan.png" width="36" height="36" alt="">
+        <span><strong>Toucan Subtitle</strong><small>Big Beak Subtitles</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">☰</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation"><a href="features.html">Features</a><a href="downloads.html" class="nav-download">Download</a><a href="guide.html">User guide</a><a href="changelog.html">Changelog</a></nav>
+      <div class="header-actions">
+        <details class="language-menu">
+          <summary aria-label="English · Language">English <span aria-hidden="true">⌄</span></summary>
+          <nav aria-label="Language"><a href="../batch-srt.html" lang="zh-CN" hreflang="zh-CN">简体中文</a><a href="batch-srt.html" lang="en" hreflang="en" aria-current="page">English</a></nav>
+        </details>
+        <a class="button button-nav" href="downloads.html">Download <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-head"><div class="frame">
+  <p class="eyebrow"><span></span> Subtitle workflow</p><h1>Batch convert videos to SRT offline</h1>
+  <p>Choose Transcription only in Toucan Subtitle and download the Whisper weights. You can then queue a folder of videos locally and export timecoded SRT files. This workflow needs no Ollama model or API key.</p>
+  <div class="actions"><a class="button button-primary" href="downloads.html">Download ↗</a><a class="button button-plain" href="guide.html#models">Prepare models ↗</a></div>
+</div></section>
+<div class="frame section docs">
+  <nav class="doc-nav" aria-label="On this page"><a href="#workflow">Example: a folder of course videos</a><a href="#resume">Resume an interrupted long video</a><a href="#sample">Example file</a></nav>
+  <div class="doc-body">
+    <section id="workflow"><h2>Example: a folder of course videos</h2><p>Suppose you have three course videos, including one long recording. Start with a short file to confirm the selected Whisper model recognizes the source language, then queue the whole folder. This is a walkthrough example.</p><ol class="guide-list"><li>In Settings → Speech transcription, choose an engine and Whisper model and download the weights. Select Transcription only.</li><li>Return to the workspace and use Add folder to include files in subfolders. If the folder already contains subtitles, check the setting to skip videos with existing subtitles before interpreting the queue.</li><li>Start the batch and watch the queue. When a job finishes, find the SRT next to the source media. Check the beginning, end and a few important timecodes.</li></ol></section>
+    <section id="resume"><h2>Resume an interrupted long video</h2><p>Reopen the app and review the restored queue. Open the job’s More menu, choose Resume processing (keep progress), and start the batch again. The app reuses compatible checkpoints. If the file, source language or primary model changed, follow the resume or restart prompt. Restart clears the checkpoints for that job.</p><a class="text-link" href="guide.html#faq">FAQ ↗</a></section>
+    <section id="sample"><h2>See what an exported SRT looks like</h2><p>This four-cue source-language example shows numbering, timecodes and subtitle text. It uses the website’s demonstration script.</p><div class="guide-panel"><pre><code>1
+00:00:00,000 --&gt; 00:00:04,000
+Early in the morning, we take a slow walk down the street.</code></pre><a href="../assets/toucan-source-en.srt" download>Download source SRT sample ↓</a></div></section>
+    <section><h2>Set up a model for polishing or translation</h2><p>To polish or translate subtitles, install Ollama and download a model, or supply your own API key for an OpenAI-compatible cloud service.</p><a class="text-link" href="bilingual-srt.html">Translate subtitles with Ollama or your own API key ↗</a></section>
+  </div>
+</div>
+
+  </main>
+  <footer class="footer">
+    <div class="frame footer-main">
+      <a class="brand" href="./" aria-label="Toucan Subtitle home">
+        <img src="../assets/toucan.png" width="36" height="36" alt="" loading="lazy">
+        <span><strong>Toucan Subtitle</strong><small>Big Beak Subtitles</small></span>
+      </a>
+      <nav aria-label="Footer navigation">
+        <a href="downloads.html">Download</a><a href="guide.html">User guide</a><a href="guide.html#privacy">Data and privacy</a><a href="changelog.html">Changelog</a><a href="https://github.com/BettaChan/toucan-subtitle-downloads">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
