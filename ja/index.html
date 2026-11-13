@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fd">
+  <title>ローカルで字幕を自動作成・翻訳 · Toucan Subtitle</title>
+  <meta name="description" content="Whisper で動画や録音から SRT 字幕を作成し、必要に応じて原文の整文や翻訳もできます。Apple Silicon Mac と Windows x64 に対応。">
+  <link rel="canonical" href="https://toucansub.app/ja/">
+  <link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/">
+  <link rel="alternate" hreflang="en" href="https://toucansub.app/en/">
+  <link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/">
+  <link rel="alternate" hreflang="de" href="https://toucansub.app/de/">
+  <link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/">
+  <link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/">
+  <link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/">
+  <link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/">
+  <link rel="alternate" hreflang="th" href="https://toucansub.app/th/">
+  <link rel="alternate" hreflang="x-default" href="https://toucansub.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Toucan Subtitle">
+  <meta property="og:title" content="ローカルで字幕を自動作成・翻訳 · Toucan Subtitle">
+  <meta property="og:description" content="Whisper で動画や録音から SRT 字幕を作成し、必要に応じて原文の整文や翻訳もできます。Apple Silicon Mac と Windows x64 に対応。">
+  <meta property="og:url" content="https://toucansub.app/ja/">
+  <meta property="og:image" content="https://toucansub.app/assets/toucan.png">
+  <meta property="og:image:alt" content="Toucan Subtitle">
+  <meta property="og:image:width" content="256">
+  <meta property="og:image:height" content="256">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_TW">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="ko_KR">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="th_TH">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://toucansub.app/ja/#page","url":"https://toucansub.app/ja/","name":"ローカルで字幕を自動作成・翻訳 · Toucan Subtitle","description":"Whisper で動画や録音から SRT 字幕を作成し、必要に応じて原文の整文や翻訳もできます。Apple Silicon Mac と Windows x64 に対応。","inLanguage":"ja","isPartOf":{"@id":"https://toucansub.app/#website"},"mainEntity":{"@id":"https://toucansub.app/#software"}},{"@type":"WebSite","@id":"https://toucansub.app/#website","url":"https://toucansub.app/","name":"Toucan Subtitle","alternateName":["大嘴鸟字幕","大嘴鳥字幕"],"inLanguage":["zh-CN","en","zh-TW","de","ja","ko","fr","ru","th"]},{"@type":"SoftwareApplication","@id":"https://toucansub.app/#software","name":"Toucan Subtitle","alternateName":"大くちばし字幕","url":"https://toucansub.app/ja/","description":"Whisper で動画や録音から SRT 字幕を作成し、必要に応じて原文の整文や翻訳もできます。Apple Silicon Mac と Windows x64 に対応。","inLanguage":"ja","operatingSystem":["macOS (Apple Silicon)","Windows (x64)"],"applicationCategory":"MultimediaApplication"}]}</script>
+  <link rel="icon" type="image/png" href="../assets/toucan.png">
+  <link rel="stylesheet" href="../assets/site.css">
+  <script src="../assets/site.js" defer></script>
+</head>
+<body class="page-index">
+  <a class="skip" href="#main">本文へ移動</a>
+  <header class="header">
+    <div class="frame header-row">
+      <a class="brand" href="index.html" aria-label="Toucan Subtitle ホーム">
+        <img src="../assets/toucan.png" width="36" height="36" alt="">
+        <span><strong>Toucan Subtitle</strong><small>大くちばし字幕</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">メニュー <span aria-hidden="true">☰</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="メインナビゲーション"><a href="features.html">機能</a><a href="downloads.html" class="nav-download">ダウンロード</a><a href="guide.html">使い方</a><a href="changelog.html">更新履歴</a></nav>
+      <div class="header-actions">
+        <details class="language-menu">
+          <summary aria-label="日本語 · 言語">日本語 <span aria-hidden="true">⌄</span></summary>
+          <nav aria-label="言語"><a href="../index.html" lang="zh-CN" hreflang="zh-CN">简体中文</a><a href="../en/index.html" lang="en" hreflang="en">English</a><a href="../zh-TW/index.html" lang="zh-TW" hreflang="zh-TW">繁體中文</a><a href="../de/index.html" lang="de" hreflang="de">Deutsch</a><a href="index.html" lang="ja" hreflang="ja" aria-current="page">日本語</a><a href="../ko/index.html" lang="ko" hreflang="ko">한국어</a><a href="../fr/index.html" lang="fr" hreflang="fr">Français</a><a href="../ru/index.html" lang="ru" hreflang="ru">Русский</a><a href="../th/index.html" lang="th" hreflang="th">ไทย</a></nav>
+        </details>
+        <a class="button button-nav" href="downloads.html">ダウンロード <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero">
+  <div class="frame hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow"><span></span> ローカル字幕作成</p>
+      <h1>動画や音声に<br><em>字幕を。</em></h1>
+      <p class="hero-description">動画、ポッドキャスト、録音を字幕に。Whisper で文字起こしし、必要に応じて整文や翻訳を行い、SRT で出力できます。</p>
+      <div class="actions">
+        <a class="button button-primary" href="downloads.html">ダウンロードへ <span aria-hidden="true">↓</span></a>
+        <a class="button button-plain" href="#how">使い方を見る <span aria-hidden="true">↘</span></a>
+      </div>
+      <p class="hero-platform">macOS Apple Silicon <span></span> Windows x64</p>
+    </div>
+    <div class="hero-visual" id="demo">
+      <div class="demo-window" aria-label="字幕ワークスペース" data-play="字幕デモを再生" data-pause="字幕デモを一時停止">
+        <div class="window-top">
+          <div class="window-title"><i></i><i></i><i></i><span>字幕ワークスペース</span></div>
+          <span class="demo-chip"><i></i> デモ</span>
+        </div>
+        <div class="demo-screen">
+          <div class="screen-meta"><span class="audio-icon" aria-hidden="true">♫</span><strong>街歩き · ポッドキャスト抜粋</strong></div>
+          <div class="waveform" data-wave aria-hidden="true"></div>
+          <div class="screen-caption">
+            <p data-caption>路地の先から、コーヒーの香りが漂ってきます。</p>
+            <small data-secondary lang="en">At the end of the lane, the scent of coffee drifts over.</small>
+          </div>
+        </div>
+        <div class="demo-controls">
+          <button class="play" type="button" aria-label="字幕デモを再生" aria-pressed="false"><span aria-hidden="true">▶</span></button>
+          <span class="time" data-time>00:04</span>
+          <input type="range" min="0" max="15" value="4" step="1" aria-label="デモのタイムライン" data-seek>
+          <span class="time">00:15</span>
+        </div>
+        <div class="demo-subnav" role="tablist" aria-label="字幕モード">
+          <button type="button" role="tab" id="mode-transcribe" aria-controls="demo-text" aria-selected="false" tabindex="-1" data-mode="transcribe" data-description="音声から原文とタイムコードを取得。">文字起こし</button>
+          <button type="button" role="tab" id="mode-polish" aria-controls="demo-text" aria-selected="false" tabindex="-1" data-mode="polish" data-description="原語のまま句読点や表現を整えます。">整文</button>
+          <button type="button" role="tab" id="mode-translate" aria-controls="demo-text" aria-selected="true" tabindex="0" data-mode="translate" data-description="同じ時間軸で原文と訳文を確認。">翻訳</button>
+        </div>
+        <div class="demo-detail" id="demo-text" role="tabpanel" aria-labelledby="mode-translate">
+          <p data-detail>同じ時間軸で原文と訳文を確認。</p>
+          <a href="../assets/toucan-sample-ja.srt" download>SRT サンプル <span aria-hidden="true">↓</span></a>
+        </div>
+        <script type="application/json" data-captions>[{"raw":"朝早く私たちは通りをゆっくり歩きます","polished":"朝早く、私たちは通りをゆっくり歩きます。","translated":"Early in the morning, we take a slow walk down the street."},{"raw":"路地の先からコーヒーの香りが漂ってきます","polished":"路地の先から、コーヒーの香りが漂ってきます。","translated":"At the end of the lane, the scent of coffee drifts over."},{"raw":"少し先にはあの古本屋があります","polished":"少し先には、あの古本屋があります。","translated":"A little further on is the old bookshop."},{"raw":"街はそんな音とともに目を覚まします","polished":"街は、そんな音とともに目を覚まします。","translated":"The city wakes up to these sounds."}]</script>
+      </div>
+      <div class="visual-note"><i></i> 15 秒間の無音字幕デモ</div>
+    </div>
+  </div>
+</section>
+<section class="section frame" id="how">
+  <div class="section-heading">
+    <div><p class="eyebrow">字幕作成の流れ</p><h2>3 ステップで SRT に。</h2></div>
+    <a class="text-link" href="guide.html">ガイドを見る <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="workflow">
+    <article><span class="tile-icon" aria-hidden="true">＋</span><h3>素材を追加</h3><p>ファイルやフォルダーを追加して、動画や録音を同じキューで処理します。</p></article>
+    <article><span class="tile-icon purple" aria-hidden="true">≋</span><h3>文字起こしと編集</h3><p>Whisper をローカルで実行し、必要に応じて任意のモデルで整文や翻訳を行います。</p></article>
+    <article><span class="tile-icon green" aria-hidden="true">↓</span><h3>確認して出力</h3><p>タイムライン上で原文と訳文を比較し、処理が終わったら SRT を取得できます。</p></article>
+  </div>
+</section>
+<section class="section section-soft">
+  <div class="frame showcase">
+    <div class="showcase-copy">
+      <p class="eyebrow">一括処理</p>
+      <h2>長い素材も進み具合がわかる。</h2>
+      <p>キュー、進捗、字幕を同じ画面で表示。長い処理は分割され、互換性のある中断点から再開できます。</p>
+      <a class="text-link" href="features.html">機能を見る <span aria-hidden="true">↗</span></a>
+    </div>
+    <figure class="product-shot"><img src="../assets/workbench.png" width="1920" height="1146" alt="キュー、進捗、字幕プレビューの作業画面" loading="lazy"><figcaption>作業画面のデザイン例 · サンプルデータ · 中国語 UI</figcaption></figure>
+  </div>
+</section>
+<section class="section frame">
+  <div class="section-heading"><div><p class="eyebrow">活用例</p><h2>さまざまな素材に字幕を。</h2></div></div>
+  <div class="use-cases">
+    <article><span>動画制作</span><h3>SRT を編集ソフトへ</h3><p>インタビュー、Vlog、製品デモ用のタイムコード付き字幕を作成。</p></article>
+    <article><span>ポッドキャストと講座</span><h3>長い録音を文章に</h3><p>講義、発表、ポッドキャストに読み返せる字幕を。</p></article>
+    <article><span>多言語コンテンツ</span><h3>原文と訳文を比較</h3><p>原語字幕を残し、必要に応じて訳文を生成。</p></article>
+  </div>
+</section>
+<section class="frame section end-section"><div class="end-banner">
+  <div><h2>最初の字幕を作ろう。</h2><p>対応環境、導入方法、公開版を確認できます。</p></div>
+  <a class="button button-primary" href="downloads.html">ダウンロードへ <span aria-hidden="true">↗</span></a>
+</div></section>
+
+  </main>
+  <footer class="footer">
+    <div class="frame footer-main">
+      <a class="brand" href="index.html" aria-label="Toucan Subtitle ホーム">
+        <img src="../assets/toucan.png" width="36" height="36" alt="" loading="lazy">
+        <span><strong>Toucan Subtitle</strong><small>大くちばし字幕</small></span>
+      </a>
+      <nav aria-label="フッターナビゲーション">
+        <a href="downloads.html">ダウンロード</a><a href="guide.html">使い方</a><a href="guide.html#privacy">データとプライバシー</a><a href="changelog.html">更新履歴</a><a href="https://github.com/BettaChan/toucan-subtitle-downloads">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

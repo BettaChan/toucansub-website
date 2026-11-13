@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fd">
+  <title>インストール・Whisper 設定・SRT 出力 · Toucan Subtitle</title>
+  <meta name="description" content="ファイルの確認から Whisper の設定、最初の SRT 字幕の作成まで。">
+  <link rel="canonical" href="https://toucansub.app/ja/guide.html">
+  <link rel="alternate" hreflang="zh-CN" href="https://toucansub.app/guide.html">
+  <link rel="alternate" hreflang="en" href="https://toucansub.app/en/guide.html">
+  <link rel="alternate" hreflang="zh-TW" href="https://toucansub.app/zh-TW/guide.html">
+  <link rel="alternate" hreflang="de" href="https://toucansub.app/de/guide.html">
+  <link rel="alternate" hreflang="ja" href="https://toucansub.app/ja/guide.html">
+  <link rel="alternate" hreflang="ko" href="https://toucansub.app/ko/guide.html">
+  <link rel="alternate" hreflang="fr" href="https://toucansub.app/fr/guide.html">
+  <link rel="alternate" hreflang="ru" href="https://toucansub.app/ru/guide.html">
+  <link rel="alternate" hreflang="th" href="https://toucansub.app/th/guide.html">
+  <link rel="alternate" hreflang="x-default" href="https://toucansub.app/guide.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Toucan Subtitle">
+  <meta property="og:title" content="インストール・Whisper 設定・SRT 出力 · Toucan Subtitle">
+  <meta property="og:description" content="ファイルの確認から Whisper の設定、最初の SRT 字幕の作成まで。">
+  <meta property="og:url" content="https://toucansub.app/ja/guide.html">
+  <meta property="og:image" content="https://toucansub.app/assets/toucan.png">
+  <meta property="og:image:alt" content="Toucan Subtitle">
+  <meta property="og:image:width" content="256">
+  <meta property="og:image:height" content="256">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_TW">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="ko_KR">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="th_TH">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://toucansub.app/ja/guide.html#page","url":"https://toucansub.app/ja/guide.html","name":"インストール・Whisper 設定・SRT 出力 · Toucan Subtitle","description":"ファイルの確認から Whisper の設定、最初の SRT 字幕の作成まで。","inLanguage":"ja","isPartOf":{"@id":"https://toucansub.app/#website"},"breadcrumb":{"@id":"https://toucansub.app/ja/guide.html#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://toucansub.app/ja/guide.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://toucansub.app/ja/"},{"@type":"ListItem","position":2,"name":"インストール・Whisper 設定・SRT 出力 · Toucan Subtitle","item":"https://toucansub.app/ja/guide.html"}]}]}</script>
+  <link rel="icon" type="image/png" href="../assets/toucan.png">
+  <link rel="stylesheet" href="../assets/site.css">
+  <script src="../assets/site.js" defer></script>
+</head>
+<body class="page-guide">
+  <a class="skip" href="#main">本文へ移動</a>
+  <header class="header">
+    <div class="frame header-row">
+      <a class="brand" href="index.html" aria-label="Toucan Subtitle ホーム">
+        <img src="../assets/toucan.png" width="36" height="36" alt="">
+        <span><strong>Toucan Subtitle</strong><small>大くちばし字幕</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">メニュー <span aria-hidden="true">☰</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="メインナビゲーション"><a href="features.html">機能</a><a href="downloads.html" class="nav-download">ダウンロード</a><a href="guide.html" aria-current="page">使い方</a><a href="changelog.html">更新履歴</a></nav>
+      <div class="header-actions">
+        <details class="language-menu">
+          <summary aria-label="日本語 · 言語">日本語 <span aria-hidden="true">⌄</span></summary>
+          <nav aria-label="言語"><a href="../guide.html" lang="zh-CN" hreflang="zh-CN">简体中文</a><a href="../en/guide.html" lang="en" hreflang="en">English</a><a href="../zh-TW/guide.html" lang="zh-TW" hreflang="zh-TW">繁體中文</a><a href="../de/guide.html" lang="de" hreflang="de">Deutsch</a><a href="guide.html" lang="ja" hreflang="ja" aria-current="page">日本語</a><a href="../ko/guide.html" lang="ko" hreflang="ko">한국어</a><a href="../fr/guide.html" lang="fr" hreflang="fr">Français</a><a href="../ru/guide.html" lang="ru" hreflang="ru">Русский</a><a href="../th/guide.html" lang="th" hreflang="th">ไทย</a></nav>
+        </details>
+        <a class="button button-nav" href="downloads.html">ダウンロード <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-head"><div class="frame">
+  <p class="eyebrow"><span></span> 使い方</p><h1>初めての <em>字幕作成。</em></h1>
+  <p>アプリを導入し、Whisper を準備して、動画や音声を追加します。</p>
+</div></section>
+<div class="frame section docs">
+  <nav class="doc-nav" aria-label="目次"><a href="#install">アプリを導入</a><a href="#verify">ファイルを確認</a><a href="#models">モデルを準備</a><a href="#first-srt">字幕を作成</a><a href="#privacy">データとプライバシー</a><a href="#faq">よくある質問</a></nav>
+  <div class="doc-body">
+    <section id="install"><h2>アプリを導入</h2><p>ダウンロードページで対応環境とバージョン状況を確認してください。 <a href="downloads.html">ダウンロード ↗</a></p>
+      <div class="guide-panel" id="macos"><h3>macOS Apple Silicon</h3><p>入手した DMG を開いてアプリケーションフォルダーに移すか、ZIP を展開して移してください。</p></div>
+      <div class="guide-panel" id="windows"><h3>Windows x64</h3><p>EXE を実行するか、ZIP をすべて展開してアプリを起動してください。Visual C++ x64 が不足している場合はランタイムを導入または修復します。</p><a href="https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist">Microsoft ランタイム ↗</a></div>
+    </section>
+    <section id="verify"><h2>ファイルを確認</h2><p>コマンドのファイル名を変更し、同じ GitHub Release の SHA-256 一覧と照合してください。</p>
+      <div class="guide-panel"><h3>macOS</h3><pre><code>shasum -a 256 "installer.dmg"</code></pre><h3>Windows PowerShell</h3><pre><code>Get-FileHash "installer.exe" -Algorithm SHA256</code></pre></div>
+    </section>
+    <section id="models"><h2>モデルを準備</h2><ol class="guide-list"><li>設定の音声文字起こしでエンジンとモデルサイズを選びます。</li><li>モデルをダウンロードし、完了を待ちます。</li><li>動作チェックで実行環境、エンジン、重みを確認します。</li></ol>
+      <div class="guide-panel" id="llm"><h3>整文・翻訳用モデルの設定</h3><p>ローカル Ollama ではモデル名を入力します。互換サービスには Base URL、API キー、モデル名が必要です。文字起こしのみなら Whisper で十分です。</p></div>
+    </section>
+    <section id="first-srt"><h2>字幕を作成</h2><ol class="guide-list"><li>作業画面でファイルやフォルダーを追加。</li><li>文字起こし、整文、翻訳を選びます。翻訳では訳先の言語を指定します。</li><li>一括処理を開始し、必要に応じて素材の言語を確認します。</li><li>プレビューを確認し、素材フォルダーで SRT を取得します。</li></ol></section>
+    <section id="privacy"><h2>データとプライバシー</h2><div class="guide-panel"><h3>ローカル文字起こし</h3><p>素材の読み込み、音声抽出、Whisper 実行は PC 上で行います。最初の重みの取得にはインターネットが必要です。</p><h3>整文・翻訳の処理先</h3><p>字幕テキストは設定したサービスに送信されます。ローカル Ollama は PC 上で処理し、外部サービスは提供元の処理・保存規定に従います。</p><h3>ウェブデモ</h3><p>ホームのデモは固定サンプルで、素材アップロード機能はありません。</p></div></section>
+    <section id="faq"><h2>よくある質問</h2><details><summary>文字起こしだけでも Ollama が必要ですか？</summary><p>文字起こしのみを選び、Whisper の重みを取得してください。</p></details>
+      <details><summary>Windows でランタイム不足と表示されたら？</summary><p>Visual C++ x64 を確認してください。アプリ内の support/diagnose-engine.cmd で依存関係を確認できます。</p></details>
+      <details><summary>中断した処理はどう再開しますか？</summary><p>作業画面を再度開いてキューを確認します。互換性のある中断点を再利用します。モデル、言語、ファイルを変更した場合は画面の案内に従ってください。</p></details>
+      <details><summary>警告付きで完了した場合は？</summary><p>品質マーク、不確かな箇所、原文のままの項目、重要な台詞を確認してください。</p></details>
+      <details><summary>不具合はどこに報告しますか？</summary><p>環境、版、処理段階、再現手順を添えてください。ログのファイル名、パス、字幕、キーは削除してください。 <a href="https://github.com/BettaChan/toucan-subtitle-downloads/issues">GitHub Issues ↗</a></p></details></section>
+  </div>
+</div>
+
+  </main>
+  <footer class="footer">
+    <div class="frame footer-main">
+      <a class="brand" href="index.html" aria-label="Toucan Subtitle ホーム">
+        <img src="../assets/toucan.png" width="36" height="36" alt="" loading="lazy">
+        <span><strong>Toucan Subtitle</strong><small>大くちばし字幕</small></span>
+      </a>
+      <nav aria-label="フッターナビゲーション">
+        <a href="downloads.html">ダウンロード</a><a href="guide.html">使い方</a><a href="guide.html#privacy">データとプライバシー</a><a href="changelog.html">更新履歴</a><a href="https://github.com/BettaChan/toucan-subtitle-downloads">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
