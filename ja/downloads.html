@@ -45,7 +45,7 @@
   <a class="skip" href="#main">本文へ移動</a>
   <header class="header">
     <div class="frame header-row">
-      <a class="brand" href="index.html" aria-label="Toucan Subtitle ホーム">
+      <a class="brand" href="./" aria-label="Toucan Subtitle ホーム">
         <img src="../assets/toucan.png" width="36" height="36" alt="">
         <span><strong>Toucan Subtitle</strong><small>大くちばし字幕</small></span>
       </a>
@@ -69,20 +69,22 @@
 <section class="section frame downloads-section" id="platforms">
   <div class="section-heading"><h2>対応環境と導入</h2><a class="text-link" href="changelog.html">更新履歴を見る ↗</a></div>
   <div class="release-note"><p><strong>アプリに大規模言語モデルは同梱されていません。</strong> 字幕の整文・翻訳には、Ollama をインストールしてモデルを取得するか、OpenAI 互換のクラウドサービスの API キーを用意してください。 文字起こしには別途取得する Whisper の重みを使用し、Ollama や API キーは不要です。 <a class="text-link" href="guide.html#llm">設定手順へ ↗</a></p></div>
-  <div class="release-note"><span class="status">候補版 1.2.02</span><p>以下は内部検証用のパッケージです。公開版、添付ファイル、チェックサムは GitHub Releases をご覧ください。</p></div>
+  <div class="release-note"><span class="status">候補版 1.2.02</span><p>以下は内部検証用のパッケージです。公開版、添付ファイル、チェックサムは GitHub Releases をご覧ください。 <strong>公開インストーラーはまだありません。</strong></p></div>
   <div class="platform-grid">
     <article class="platform">
       <div class="platform-top"><span class="platform-icon" aria-hidden="true">⌘</span><span class="pill">ARM64</span></div>
       <h3>macOS</h3><p>Apple Silicon Mac 用。MLX GPU と faster-whisper CPU に対応。</p>
       <dl class="package-list"><div><dt>DMG インストーラー</dt><dd>289.6 MiB</dd></div><div><dt>ZIP アーカイブ</dt><dd>291.0 MiB</dd></div></dl>
       <p class="fine">候補版はアドホック署名済みです。Developer ID 署名と Apple の公証は未完了です。</p>
+      <p class="fine">GitHub Actions で候補パッケージの SHA-256 とアーカイブの整合性を確認しました。 <a class="text-link" href="https://github.com/BettaChan/toucan-subtitle-downloads/actions/runs/43330776354">GitHub Actions ↗</a></p>
       <a class="text-link" href="guide.html#macos">macOS の導入手順 ↗</a>
     </article>
     <article class="platform">
       <div class="platform-top"><span class="platform-icon windows-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="pill">X64</span></div>
       <h3>Windows</h3><p>Windows x64 用。faster-whisper CPU と Microsoft Visual C++ x64 ランタイムを使用。</p>
       <dl class="package-list"><div><dt>EXE インストーラー</dt><dd>145.1 MiB</dd></div><div><dt>ポータブル ZIP</dt><dd>201.0 MiB</dd></div></dl>
-      <p class="fine">アーカイブは確認済みです。実機での導入、起動、文字起こしは未検証です。</p>
+      <p class="fine">GitHub の Windows x64 ランナーでインストール、起動、オフライン診断、実際の音声の文字起こしに成功しました。 <a class="text-link" href="https://github.com/BettaChan/toucan-subtitle-downloads/actions/runs/43328309404">GitHub Actions ↗</a></p>
+      <p class="fine">Windows 実機での検証とリリース署名は未確認です。</p>
       <a class="text-link" href="guide.html#windows">Windows の導入手順 ↗</a>
     </article>
   </div>
@@ -100,7 +102,7 @@
   </main>
   <footer class="footer">
     <div class="frame footer-main">
-      <a class="brand" href="index.html" aria-label="Toucan Subtitle ホーム">
+      <a class="brand" href="./" aria-label="Toucan Subtitle ホーム">
         <img src="../assets/toucan.png" width="36" height="36" alt="" loading="lazy">
         <span><strong>Toucan Subtitle</strong><small>大くちばし字幕</small></span>
       </a>
