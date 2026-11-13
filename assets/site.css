@@ -54,7 +54,7 @@ h3 { line-height: 1.35; letter-spacing: -.025em; font-size: 21px; }
 .hero { overflow: hidden; position: relative; isolation: isolate; background: linear-gradient(125deg,#f6f8ff 10%,#edf3ff 57%,#eeebff 100%); border-bottom: 1px solid #e6ecf7; }
 .hero::before { content: ""; position: absolute; inset: 0; z-index: -1; background-image: radial-gradient(#7895cc55 .8px, transparent .8px); background-size: 17px 17px; mask-image: linear-gradient(90deg, transparent 18%, #000 95%); }
 .hero-inner { display: grid; grid-template-columns: minmax(0,.82fr) minmax(0,1.18fr); gap: clamp(22px, 4.2vw, 65px); align-items: center; padding-block: 72px 69px; min-height: 594px; }
-.hero-copy { padding-bottom: 10px; }
+.hero-copy { container-type: inline-size; padding-bottom: 10px; }
 .hero-description { margin: 26px 0 23px; color: #475874; font-size: clamp(15px,1.46vw,19px); line-height: 1.8; }
 .hero-platform { margin-top: 17px; color: #536581; font-size: 12px; font-weight: 680; display: flex; align-items: center; gap: 10px; }
 .hero-platform span { display: block; width: 3px; height: 3px; border-radius: 50%; background: #8292ad; }
@@ -239,7 +239,7 @@ details p { padding-top: 6px; }
 .language-menu nav a { display: block; padding: 5px 9px; border-radius: 5px; color: #41516c; font-size: 14px; white-space: nowrap; }
 .language-menu nav a:hover, .language-menu nav a[aria-current] { background: #edf3ff; color: #194bbd; }
 .hero-copy h1 { font-size: clamp(38px, 5vw, 72px); letter-spacing: -.06em; overflow-wrap: anywhere; }
-html:lang(zh) .hero-copy h1 { font-size: clamp(39px, 5.2vw, 76px); }
+html:lang(zh) .hero-copy h1 { font-size: clamp(28px, 12.3cqi, 72px); }
 .hero-setup { max-width: 45ch; margin-top: 8px; color: #536581; font-size: 13px; line-height: 1.6; }
 .hero-setup a { color: #2456bd; text-decoration: underline; text-underline-offset: 3px; }
 html:lang(th) .hero-copy h1 { letter-spacing: 0; line-height: 1.22; }
@@ -272,6 +272,3 @@ html:not(:lang(zh)) .brand small { letter-spacing: .025em; font-size: 9px; }
   .header-row .brand small { display: none; }
 }
 
-@media (max-width: 380px) {
-  html:lang(zh) .hero-copy h1 { font-size: 35px; }
-}
