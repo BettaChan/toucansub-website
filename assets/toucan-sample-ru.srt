@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:04,000
+Рано утром мы медленно идём по улице.
+Early in the morning, we take a slow walk down the street.
+
+2
+00:00:04,000 --> 00:00:08,000
+В конце переулка пахнет кофе.
+At the end of the lane, the scent of coffee drifts over.
+
+3
+00:00:08,000 --> 00:00:12,000
+Чуть дальше — старый книжный магазин.
+A little further on is the old bookshop.
+
+4
+00:00:12,000 --> 00:00:15,000
+Под эти звуки просыпается город.
+The city wakes up to these sounds.

@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:04,000
+이른 아침, 우리는 거리를 천천히 걸어요.
+Early in the morning, we take a slow walk down the street.
+
+2
+00:00:04,000 --> 00:00:08,000
+골목 끝에서 커피 향이 풍겨 와요.
+At the end of the lane, the scent of coffee drifts over.
+
+3
+00:00:08,000 --> 00:00:12,000
+조금 더 가면 오래된 서점이 있어요.
+A little further on is the old bookshop.
+
+4
+00:00:12,000 --> 00:00:15,000
+도시는 이런 소리와 함께 깨어나요.
+The city wakes up to these sounds.

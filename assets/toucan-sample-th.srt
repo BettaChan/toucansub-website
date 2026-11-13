@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:04,000
+ตอนเช้าตรู่ เราเดินไปตามถนนช้า ๆ
+Early in the morning, we take a slow walk down the street.
+
+2
+00:00:04,000 --> 00:00:08,000
+ตรงปากซอย มีกลิ่นกาแฟลอยมา
+At the end of the lane, the scent of coffee drifts over.
+
+3
+00:00:08,000 --> 00:00:12,000
+เดินต่ออีกนิด ก็ถึงร้านหนังสือเก่า
+A little further on is the old bookshop.
+
+4
+00:00:12,000 --> 00:00:15,000
+เมืองตื่นขึ้นพร้อมเสียงเหล่านี้
+The city wakes up to these sounds.

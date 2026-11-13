@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:04,000
+Früh am Morgen gehen wir langsam die Straße entlang.
+Early in the morning, we take a slow walk down the street.
+
+2
+00:00:04,000 --> 00:00:08,000
+Am Ende der Gasse riecht es nach Kaffee.
+At the end of the lane, the scent of coffee drifts over.
+
+3
+00:00:08,000 --> 00:00:12,000
+Ein Stück weiter liegt die alte Buchhandlung.
+A little further on is the old bookshop.
+
+4
+00:00:12,000 --> 00:00:15,000
+Mit diesen Geräuschen erwacht die Stadt.
+The city wakes up to these sounds.

@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:04,000
+清晨，我們沿著街道慢慢走。
+Early in the morning, we take a slow walk down the street.
+
+2
+00:00:04,000 --> 00:00:08,000
+到了巷口，咖啡的香氣就飄過來了。
+At the end of the lane, the scent of coffee drifts over.
+
+3
+00:00:08,000 --> 00:00:12,000
+再往前一點，就是那家舊書店。
+A little further on is the old bookshop.
+
+4
+00:00:12,000 --> 00:00:15,000
+城市就在這些聲音裡醒了過來。
+The city wakes up to these sounds.

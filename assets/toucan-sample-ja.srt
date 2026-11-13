@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:04,000
+朝早く、私たちは通りをゆっくり歩きます。
+Early in the morning, we take a slow walk down the street.
+
+2
+00:00:04,000 --> 00:00:08,000
+路地の先から、コーヒーの香りが漂ってきます。
+At the end of the lane, the scent of coffee drifts over.
+
+3
+00:00:08,000 --> 00:00:12,000
+少し先には、あの古本屋があります。
+A little further on is the old bookshop.
+
+4
+00:00:12,000 --> 00:00:15,000
+街は、そんな音とともに目を覚まします。
+The city wakes up to these sounds.
